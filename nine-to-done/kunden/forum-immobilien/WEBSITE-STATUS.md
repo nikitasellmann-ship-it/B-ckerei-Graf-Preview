@@ -33,17 +33,19 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 
 ## Marke
 
-Gemessen an der Live-Seite am 2026-11-03. Es gibt nur eine Markenfarbe, kein Logo und keine eigenen Schriften.
+Quellen: Live-Seite forum-roeher.de und Logo im ImmoScout24-Profil (Screenshot vom Kunden-Profil, 2026-11-03).
+Das Logo liegt nur als unscharfer Screenshot vor. Für die Vorführ-Version ist es als Vektordatei nachgebaut: `logo/final/`.
 
 | Rolle | Wert |
 |---|---|
-| Hauptfarbe | `#272e61` (dunkles Marineblau, Kopfleiste) |
+| Hauptfarbe | Logo-Blau, vorläufig `#2e5b86`. Im Screenshot gemessen `#557892`, dort durch einen halbtransparenten Kasten aufgehellt. Endgültig aus der Originaldatei. |
+| Zweitfarbe | Marineblau `#272e61` (Kopfleiste der alten Website) |
 | Akzent | keiner |
 | helle Fläche | Weiß |
-| Text | Weiß auf Marineblau, sonst Browser-Standard |
-| Überschriften | Browser-Standardschrift, fett |
-| Fließtext | Browser-Standardschrift |
-| Merkmale | Name „Forum Immobilien“ als Text, Firmenname auf der Kontaktseite in Großbuchstaben „FORUM IMMOBILIEN“ |
+| Text | offen (Phase 4) |
+| Überschriften | Logo: klassische Serifen-Versalien. Nachbau mit Libre Caslon Text. Website-Schriften entscheidet Phase 4. |
+| Fließtext | offen (Phase 4) |
+| Merkmale | Säule als Zeichen zwischen „FORUM“ und „IMMOBILIEN“ (Forum = Säulenhalle), Unterzeile „Immobilien · Finanzierungen · Hausverwaltung“ |
 
 ## Entscheidungen
 
@@ -59,11 +61,12 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Zielgruppe nach Empfehlung: Eigentümer, die Herrn Röher noch nicht kennen (über Google). Die Seite muss Vertrauen aufbauen.
 - 2026-11-03: Erste Fassung ist eine Vorführ-Version für das Gespräch mit Herrn Röher. Leistungen und Details werden danach mit ihm abgestimmt. Unbestätigtes wird nicht als Tatsache dargestellt.
 - 2026-11-03: Anrede Sie.
+- 2026-11-03: Logo wird für die Vorführ-Version als Vektordatei nachgebaut (Libre Caslon Text, Säule als SVG). Wird durch die Originaldatei ersetzt, sobald Herr Röher sie liefert.
 
 ## Offene Fragen an die Person
 
-- Logo-Datei fehlt (ImmoScout-Bildserver ist in der Cloud-Sitzung gesperrt). Bild: https://pictures.immobilienscout24.de/usercontent/cc90103f-0994-45df-b783-78750e1a494b.JPEG
-- Mit Herrn Röher klären: Leistungen, Jahre Erfahrung, Mitgliedschaften, Foto, Öffnungszeiten, Bewertungen zeigen?, Provision nennen?
+- Originale Logo-Datei (SVG, PDF oder große PNG) von Herrn Röher anfragen, dann Farben neu messen.
+- Mit Herrn Röher klären: Umfang der Leistungen Finanzierungen und Hausverwaltung, Jahre Erfahrung, Mitgliedschaften, Foto, Öffnungszeiten, Bewertungen zeigen?, Provision nennen?
 - Die Domain zeigt heute auf Vercel. Für den Umzug zu Hostinger muss der DNS-Eintrag geändert werden (erst in Phase 7, nur mit OK).
 
 ## Update-Ablauf nach dem Livegang

@@ -46,7 +46,8 @@ Ein Makler vor Ort in Hagenbach, der Inhaber persönlich als Ansprechpartner, mi
 - Objekte nie fest ins HTML schreiben, immer aus den Objektdaten erzeugen.
 - Feste Adresse pro Objekt (`/immobilien/<id>/`).
 - Pflichtseiten: Impressum, Datenschutz (fehlen auf der alten Seite).
-- Offen und mit dem Kunden zu klären: genaue Leistungen (Verkauf, Vermietung, Wertermittlung, Finanzierungsvermittlung),
+- Leistungen laut Logo: Immobilien, Finanzierungen, Hausverwaltung. Laut ImmoScout24-Profil: Verkauf und Vermietung.
+- Offen und mit dem Kunden zu klären: Umfang von Finanzierungen und Hausverwaltung, Wertermittlung,
   Jahre Erfahrung, Mitgliedschaften, Foto vom Inhaber, Öffnungszeiten, ob die Provision genannt wird.
 
 ## Brand Commitments
@@ -54,7 +55,8 @@ Ein Makler vor Ort in Hagenbach, der Inhaber persönlich als Ansprechpartner, mi
 - Firmenname: **FORUM IMMOBILIEN** bzw. „Forum Immobilien“. Inhaber: Dipl. Betriebswirt Hans-Eckhard Röher
   (auf ImmoScout24 „Eckhard Röher“).
 - Markenfarbe der alten Seite: Marineblau `#272e61`.
-- Logo: existiert laut Nine to Done, liegt auf ImmoScout24. Datei fehlt noch im Projekt (`inhalte/bilder/`).
+- Logo: „FORUM [Säule] IMMOBILIEN“ in blauen Serifen-Versalien, Unterzeile „Immobilien · Finanzierungen · Hausverwaltung“.
+  Vektor-Nachbau für die Vorführung in `logo/final/`, Original von Herrn Röher anfragen.
 - Anrede: **Sie**.
 - Domain: forum-roeher.de, E-Mail immo@forum-roeher.de.
 
@@ -66,6 +68,7 @@ Belegt aus öffentlichen Quellen, Stand 2026-11-03:
 - Titel: Dipl. Betriebswirt (Kontaktseite der alten Website, ImmoScout-Exposé).
 - Eigene Aussage der alten Website: „mit langjähriger Erfahrung“. Keine Jahreszahl belegt.
 - 6 aktuelle Kaufangebote auf ImmoScout24, alle in 76767 Hagenbach (Bungalow, Wohnungen, Haushälften, Einfamilienhaus).
+- ImmoScout24 **Silber Partner seit 2025** (Siegel im Profil), 42 Follower.
 - Bewertungen: Google 4,0 von 5 (6 Bewertungen), ImmoScout24 4,4 von 5 (3 Bewertungen). Nicht auf die Seite, bevor der Kunde zustimmt.
 - Einträge bei Gelbe Seiten, makler-empfehlung.de, Trustlocal, StarOfService.
 
