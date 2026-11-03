@@ -1,0 +1,86 @@
+{
+  "_hinweis": "Objektdaten der Website. Feldnamen nach OpenImmo (objektkategorie, geo, preise, flaechen, freitexte, verwaltung_techn). Später füllt das Makler-Portal von Nine to Done diese Datei bzw. eine Schnittstelle. Vorführ-Version: Beispieldaten aus dem ImmoScout24-Konto von Forum Immobilien (Anbieter 13022001), Stand 2026-11-03. Bilder fehlen, weil der Bildserver in der Arbeitsumgebung gesperrt war.",
+  "stand": "2026-11-03",
+  "anbieter": { "firma": "Forum Immobilien", "openimmo_anid": "13022001" },
+  "immobilien": [
+    {
+      "objektnr_extern": "200926",
+      "scout_id": "171139412",
+      "slug": "bungalow-hagenbach-171139412",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "haus", "objekttyp": "BUNGALOW" },
+      "geo": { "plz": "76767", "ort": "Hagenbach", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 485000, "aussen_courtage": "3,57 % inkl. gesetzl. MwSt." },
+      "flaechen": { "wohnflaeche": 110, "nutzflaeche": 150, "grundstuecksflaeche": 569, "anzahl_zimmer": 5, "anzahl_schlafzimmer": 3, "anzahl_badezimmer": 1 },
+      "ausstattung": { "garage": true, "keller": true, "einbaukueche": true, "heizungsart": "Zentralheizung", "befeuerung": "Öl" },
+      "zustand_angaben": { "baujahr": 1988, "letzte_modernisierung": 2021, "zustand": "modernisiert", "energiepass": "liegt zur Besichtigung vor" },
+      "freitexte": {
+        "objekttitel": "Geräumiger Bungalow in guter Wohnlage",
+        "objektbeschreibung": "Geräumiger Bungalow mit großer überdachter Terrasse, Garten und Garage in zentraler, aber ruhiger, gewachsener Wohnlage in Hagenbach im Einfamilienhausgebiet. Im Erdgeschoss: Eingangsbereich, Flur, zwei Kinderzimmer, großes Wohn-Esszimmer mit Ausgang zu Terrasse und Garten, Küche, Elternschlafzimmer, Badezimmer und Gäste-WC. Das Obergeschoss ist zum Ausbau vorbereitet und hat einen Balkon. Im Keller liegen fünf große Räume mit Waschraum, Heizung, Tanklager und Abstellräumen, mit Aufgang zum Garten.",
+        "ausstatt_beschr": "Familienfreundlicher Grundriss mit Ausbaupotenzial im Obergeschoss von zusätzlich über 50 m² Wohnfläche. Bodenbeläge teils Fliesen oder PVC, Einbauküche. Modernisierungen: 2018 neue Ölzentralheizung, 2021 Modernisierung von Badezimmer und Gäste-WC. Es sind noch Modernisierungsarbeiten durchzuführen.",
+        "lage": "Schöne Einfamilienhauslage in Hagenbach am Rande einer Sackgasse, kein Durchgangsverkehr. Öffentliche Verkehrsmittel, Ärzte, Geschäfte des täglichen Bedarfs, Schule und Kindergärten in fußläufiger Nähe.",
+        "sonstige_angaben": "Einige Bilder sind teilweise optimiert worden."
+      },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/171139412/1/1" }
+    },
+    {
+      "objektnr_extern": null,
+      "scout_id": "167279877",
+      "slug": "eg-wohnung-terrasse-garten-hagenbach-167279877",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "wohnung", "objekttyp": "ERDGESCHOSS" },
+      "geo": { "plz": "76767", "ort": "Hagenbach", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 379000 },
+      "flaechen": { "wohnflaeche": 110, "anzahl_zimmer": 3 },
+      "ausstattung": { "einbaukueche": true, "garten": true, "balkon_terrasse": true },
+      "freitexte": { "objekttitel": "Geräumige 3-Zimmer-Erdgeschosswohnung mit Terrasse und Garten" },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/167279877/1/1" }
+    },
+    {
+      "objektnr_extern": null,
+      "scout_id": "171868989",
+      "slug": "haushaelfte-hagenbach-171868989",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "haus", "objekttyp": "DOPPELHAUSHAELFTE" },
+      "geo": { "plz": "76767", "ort": "Hagenbach", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 379000 },
+      "flaechen": { "wohnflaeche": 110, "anzahl_zimmer": 3 },
+      "ausstattung": { "garage": true, "garten": true, "balkon_terrasse": true },
+      "freitexte": { "objekttitel": "Haushälfte mit 3-Zimmer-Erdgeschosswohnung, Garten, Terrasse und Garage" },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/171868989/1/1" }
+    },
+    {
+      "objektnr_extern": null,
+      "scout_id": "167283603",
+      "slug": "wohnung-wohnstudio-garten-hagenbach-167283603",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "wohnung", "objekttyp": "ETAGE" },
+      "geo": { "plz": "76767", "ort": "Hagenbach", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 369000 },
+      "flaechen": { "wohnflaeche": 100, "anzahl_zimmer": 4 },
+      "ausstattung": { "garten": true, "balkon_terrasse": true },
+      "freitexte": { "objekttitel": "3-Zimmer-Wohnung mit Wohnstudio und eigenem Garten" },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/167283603/1/1" }
+    },
+    {
+      "objektnr_extern": null,
+      "scout_id": "167162868",
+      "slug": "einfamilienhaus-hagenbach-167162868",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "haus", "objekttyp": "EINFAMILIENHAUS" },
+      "geo": { "plz": "76767", "ort": "Hagenbach", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 369000 },
+      "flaechen": { "wohnflaeche": 130, "anzahl_zimmer": 5 },
+      "ausstattung": { "garten": true },
+      "freitexte": { "objekttitel": "Solides Einfamilienhaus mit großem Garten" },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/167162868/1/1" }
+    },
+    {
+      "objektnr_extern": null,
+      "scout_id": "167135224",
+      "slug": "doppelhaushaelfte-hinterweidenthal-167135224",
+      "objektkategorie": { "nutzungsart": "WOHNEN", "vermarktungsart": "KAUF", "objektart": "haus", "objekttyp": "DOPPELHAUSHAELFTE" },
+      "geo": { "plz": "66999", "ort": "Hinterweidenthal", "adresse_freigegeben": false },
+      "preise": { "kaufpreis": 219000 },
+      "flaechen": { "wohnflaeche": 220, "anzahl_zimmer": 8 },
+      "ausstattung": {},
+      "freitexte": { "objekttitel": "Geräumige Doppelhaushälfte mit Nebengebäuden" },
+      "verwaltung_techn": { "neu": false, "reserviert": false, "quelle": "https://portal.immobilienscout24.de/expose/13022001/167135224/1/1" }
+    }
+  ]
+}

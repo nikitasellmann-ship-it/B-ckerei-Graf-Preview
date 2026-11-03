@@ -10,8 +10,8 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 | 1 | Fundament | ✅ | 2026-11-03 |
 | 2 | Recherche | ✅ | 2026-11-03 |
 | 3 | Texte | ✅ | 2026-11-03 |
-| 4 | Design-Richtung | 🔄 | 2026-11-03 |
-| 5 | Bauen | ⬜ | |
+| 4 | Design-Richtung | ✅ | 2026-11-03 |
+| 5 | Bauen | ✅ | 2026-11-03 |
 | 6 | Prüfen und Feinschliff | ⬜ | |
 | 7 | Livegang | ⬜ | |
 | 8 | Danach | ⬜ | |
@@ -70,13 +70,15 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Phase 2 abgenommen.
 - 2026-11-03: Texte auf KI-Muster und Verkaufslogik geprüft (`recherche/ki-muster-pruefung.md`). Neuer Aufbau nach den Fragen des Eigentümers, Bewertung startet im Einstieg, keine Kicker, Karten oder nummerierten Schritte. Nine to Done gibt Freigabe, mit Phase 4 weiterzumachen.
 - 2026-11-03: Phase 4 ohne das Losverfahren von impeccable (`concept-seed` in der Cloud-Sitzung blockiert). Sieben Richtungen aus fünf Materialfamilien, drei ausgearbeitet, Empfehlung A (Flurkarte).
+- 2026-11-03: Gewählt: A + B (Flurkarte als Welt, wachsende Säulen aus B). Richtungsvertrag `design/richtung.md`.
+- 2026-11-03: Seite gebaut in `website/` (statisch, ohne Bibliothek). Objekte aus `website/daten/objekte.json` (OpenImmo-Felder), Liste und Objektseiten per `python werkzeuge/seiten_bauen.py`. Ein Beispielobjekt liegt in Hinterweidenthal (Pfälzerwald): Gebiet mit Herrn Röher klären.
 - 2026-11-03: Logo als Gestaltungsmotiv: drei Säulen = drei Leistungen, Säule als Fortschrittslinie, Ideen in `referenzen/notizen.md`.
 - 2026-11-03: Gewählt: Variante 1 aus Runde 2 (reines Konzept B, ohne Rundbogen). Favicon: Säule mit goldenem Kapitell auf Blau. Phase 1 abgenommen.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
 
 ## Offene Fragen an die Person
 
-- Phase 4: Richtung wählen auf `design/richtungen/index.html` (A Flurkarte, B Sandstein und Säule, C Rheinauen, Standard). Mit ⚑ markierte Sätze und die 18 offenen Fragen klärt Nine to Done mit Herrn Röher.
+- Phase 6: Prüfung und Feinschliff der gebauten Seite `website/`. Bekannte Punkte: Balken FORUM liegt nur auf der höchsten Säule auf, auf dem Handy rutscht die Objektart-Auswahl unter den ersten Bildschirm, echtes Foto fehlt, Objektbilder fehlen. Mit ⚑ markierte Sätze und die 18 offenen Fragen klärt Nine to Done mit Herrn Röher.
 - Für Herrn Röher: seit wann Makler, Zahl der Verkäufe, Referenzen, § 34c GewO, macht er WEG- und Mietverwaltung?, Provision nennen?
 
 - Originale Logo-Datei (SVG, PDF oder große PNG) von Herrn Röher anfragen, dann Farben neu messen.
