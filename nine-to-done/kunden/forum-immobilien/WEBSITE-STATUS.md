@@ -55,10 +55,15 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Hauptziel ist, Verkäufer zu gewinnen (Empfehlung angenommen).
 - 2026-11-03: Hosting bei Hostinger.
 - 2026-11-03: impeccable darf installiert werden.
+- 2026-11-03: Logo existiert (auf ImmoScout24), kein neues Logo entwerfen. Datei muss noch ins Projekt.
+- 2026-11-03: Zielgruppe nach Empfehlung: Eigentümer, die Herrn Röher noch nicht kennen (über Google). Die Seite muss Vertrauen aufbauen.
+- 2026-11-03: Erste Fassung ist eine Vorführ-Version für das Gespräch mit Herrn Röher. Leistungen und Details werden danach mit ihm abgestimmt. Unbestätigtes wird nicht als Tatsache dargestellt.
+- 2026-11-03: Anrede Sie.
 
 ## Offene Fragen an die Person
 
-- Siehe Phase-1-Fragen im Chat (Logo, Besucher, Belege, Anrede).
+- Logo-Datei fehlt (ImmoScout-Bildserver ist in der Cloud-Sitzung gesperrt). Bild: https://pictures.immobilienscout24.de/usercontent/cc90103f-0994-45df-b783-78750e1a494b.JPEG
+- Mit Herrn Röher klären: Leistungen, Jahre Erfahrung, Mitgliedschaften, Foto, Öffnungszeiten, Bewertungen zeigen?, Provision nennen?
 - Die Domain zeigt heute auf Vercel. Für den Umzug zu Hostinger muss der DNS-Eintrag geändert werden (erst in Phase 7, nur mit OK).
 
 ## Update-Ablauf nach dem Livegang
