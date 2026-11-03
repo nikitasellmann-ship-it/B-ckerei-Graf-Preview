@@ -4,7 +4,7 @@ Stand 2026-11-03. Wunsch von Nine to Done: Die Website soll mit Systemen zusamme
 
 ## Ziel (später, nicht Teil der ersten Website)
 
-1. **Makler-Portal (CRM):** Herr Röhrer lädt ein Exposé hoch (Daten und Fotos).
+1. **Makler-Portal (CRM):** Herr Röher lädt ein Exposé hoch (Daten und Fotos).
 2. **Bildbearbeitung automatisch:** Belichtung, Weißabgleich, gerade Linien, Himmel, Größen für jedes Portal.
 3. **Veröffentlichung automatisch:** ImmoScout24, Immowelt/Kleinanzeigen und andere Portale, gleichzeitig auf der eigenen Website.
 
