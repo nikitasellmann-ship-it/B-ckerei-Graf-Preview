@@ -50,3 +50,17 @@ Nicht abrufbar. Aus öffentlichem Auftritt bekannt: Serifenschrift, Marineblau, 
 7. Alles abschaltbar über `prefers-reduced-motion`, kein Ladebildschirm, Inhalt ist ohne JavaScript lesbar.
 
 **Grenze:** Ladezeit vor Effekt. GSAP und Lenis werden lokal eingebunden, zusammen rund 60 KB komprimiert. Kein Webflow-Baukasten, der Stack bleibt eine statische Seite (siehe PRODUCT.md).
+
+## Logo als Gestaltungsmotiv (Wunsch von Nine to Done: „etwas Cooles mit dem Logo“)
+
+Grundidee: Forum = römischer Platz, an dem gehandelt wurde, getragen von Säulen. Drei Leistungen = drei Säulen.
+
+1. **Einstieg:** Die Säule im Logo baut sich beim ersten Laden auf: Basis, Schaft Rille für Rille, zuletzt das goldene Kapitell (unter 1 Sekunde, blockiert nichts, Inhalt ist sofort da).
+2. **Drei Säulen als Leistungsübersicht:** Verkauf, Finanzierung, Hausverwaltung wachsen beim Scrollen aus dem Boden und tragen zusammen einen Querbalken mit FORUM. Klick auf eine Säule führt zur Leistung.
+3. **Säule als Fortschrittslinie im Verkaufsablauf:** Der Schaft wächst von Schritt 1 bis 5 mit, beim letzten Schritt (Schlüsselübergabe) setzt sich das Kapitell auf.
+4. **Kannelur als Gestaltungsdetail:** Die Rillen des Säulenschafts als feines Linienmuster in Trennflächen, Buttons beim Darüberfahren und im Ladezustand.
+5. **Formular-Fortschritt:** Die vier Schritte der Bewertungsanfrage füllen eine kleine Säule von unten nach oben.
+6. **Fußzeile:** große, sehr blasse Säule angeschnitten im Hintergrund, darüber Kontakt.
+7. **Higgsfield (wenn Credits da sind):** kurzes Video einer Marmorsäule im wandernden Licht als Hintergrund für „Über mich“ oder als Übergang. Nur Stimmung, keine Aussage über echte Orte.
+
+Regel: Die Säule ist Akzent, kein Dauerfeuer. Höchstens drei Stellen pro Seite bewegen sich auffällig, alles respektiert `prefers-reduced-motion`.
