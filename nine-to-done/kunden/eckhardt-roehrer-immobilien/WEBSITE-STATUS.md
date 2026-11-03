@@ -42,6 +42,7 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 
 - 2026-11-03: Website wird mit dem Skill `website-bauen` (Julian Ivanov) gebaut.
+- 2026-11-03: Die Website muss mit einem späteren Makler-Portal (Exposé-Upload, automatische Bildbearbeitung, Export zu ImmoScout24 und anderen Portalen) zusammenarbeiten. Objekte kommen deshalb aus Daten nach OpenImmo-Standard, nicht aus festem HTML. Details: `briefing/zukunft-crm-und-portale.md`.
 
 ## Offene Fragen an die Person
 
