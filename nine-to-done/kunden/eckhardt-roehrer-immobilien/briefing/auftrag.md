@@ -1,6 +1,6 @@
 # Auftrag
 
-- **Auftraggeber:** Immobilienmakler (Name folgt)
+- **Auftraggeber:** Eckhardt Röhrer Immobilien, Hagenbach
 - **Auftragnehmer:** Nine to Done
 - **Leistung:** Konzeption, Design und Umsetzung einer Webseite
 - **Startdatum:** 2026-11-03
