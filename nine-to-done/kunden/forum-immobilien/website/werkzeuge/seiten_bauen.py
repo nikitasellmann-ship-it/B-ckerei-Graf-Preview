@@ -21,7 +21,7 @@ TYP = {"BUNGALOW": "Bungalow", "EINFAMILIENHAUS": "Einfamilienhaus", "DOPPELHAUS
 
 
 def euro(v):
-    return f"{v:,.0f} €".replace(",", ".")
+    return f"{v:,.0f}\u00a0€".replace(",", ".")
 
 
 def num(v):
@@ -52,9 +52,9 @@ def list_item(o):
     ort = html.escape(o["geo"]["ort"])
     p = o["preise"].get("kaufpreis")
     fx = " · ".join([ort] + facts(o))
-    price = f' · <span class="price">{euro(p)}</span>' if p else ""
-    return (f'          <li class="item"><a href="immobilien/{o["slug"]}/">{parcel(o["scout_id"])}'
-            f'<div><h3>{t}</h3><p class="facts" style="margin:0">{fx}{price}</p></div></a></li>')
+    price = f'<span class="price">{euro(p)}</span>' if p else ""
+    return (f'          <li class="idx"><a href="immobilien/{o["slug"]}/">{parcel(o["scout_id"])}'
+            f'<div><h3>{t}</h3><p class="facts">{fx}{price}</p></div></a></li>')
 
 
 def page(o):
@@ -93,18 +93,20 @@ def page(o):
 <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@type": "Offer", "name": title, "price": p, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "seller": {"@type": "RealEstateAgent", "name": "Forum Immobilien", "@id": "https://www.forum-roeher.de/#business"}, "itemOffered": {"@type": "SingleFamilyResidence" if o["objektkategorie"]["objektart"] == "haus" else "Apartment", "name": title, "numberOfRooms": f.get("anzahl_zimmer"), "floorSize": {"@type": "QuantitativeValue", "value": f.get("wohnflaeche"), "unitCode": "MTK"}, "address": {"@type": "PostalAddress", "postalCode": o["geo"]["plz"], "addressLocality": ort, "addressCountry": "DE"}}}, ensure_ascii=False)}</script>
 </head>
 <body>
-<div class="demo" role="note"><div class="wrap"><p>Vorführ-Version von Nine to Done. Beispieldaten aus dem ImmoScout24-Konto, Stand {html.escape(DATA_STAND)}.</p></div></div>
-<header class="top"><div class="wrap"><a class="brand" href="../../"><img src="../../assets/img/forum-logo-kurz.svg" alt="Forum Immobilien" width="180" height="22"></a><a class="tel" href="tel:+497273800365">07273 800365</a></div></header>
-<main class="obj"><div class="wrap">
-<a class="back" href="../../#angebote">← Alle Angebote</a>
+<div class="demo" role="note"><div class="in"><p>Vorführ-Version von Nine to Done. Beispieldaten aus dem ImmoScout24-Konto, Stand {html.escape(DATA_STAND)}.</p></div></div>
+<div class="page">
+<div class="top"><a href="../../"><img src="../../assets/img/forum-logo-kurz-weiss.svg" alt="Forum Immobilien" width="180" height="22"></a><a class="ph" href="tel:+497273800365">07273 800365</a></div>
+<main class="sheet">
+<a class="back-link" href="../../#angebote">← Alle Angebote</a>
 <h1>{html.escape(title)}</h1>
 <p class="where">{html.escape(o["geo"]["plz"])} {html.escape(ort)} · Die genaue Adresse erhalten Sie vor der Besichtigung.</p>
 <p class="photos-missing">Bilder und Grundrisse kommen hier automatisch aus den Objektdaten. In der Vorführ-Version fehlen sie.</p>
 <dl class="datasheet">{sheet}</dl>
 {blocks}
-<p style="margin-top:40px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="mailto:immo@forum-roeher.de?subject={html.escape('Besichtigung: ' + title)}">Besichtigung anfragen</a><a class="btn ghost" href="tel:+497273800365">07273 800365</a></p>
-</div></main>
-<footer class="foot" style="margin-top:80px"><div class="wrap"><img src="../../assets/img/forum-logo-weiss.svg" alt="Forum Immobilien" width="300" height="44"><p style="margin:0">Forum Immobilien · Lindelbrunnstraße 4 · 76767 Hagenbach</p><nav><a href="../../impressum.html">Impressum</a><a href="../../datenschutz.html">Datenschutz</a></nav></div></footer>
+<p style="margin-top:36px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="mailto:immo@forum-roeher.de?subject={html.escape('Besichtigung: ' + title)}">Besichtigung anfragen</a><a class="btn line" href="tel:+497273800365">07273 800365</a></p>
+</main>
+<footer class="end"><img src="../../assets/img/forum-logo-weiss.svg" alt="Forum Immobilien" width="300" height="44"><p>Forum Immobilien · Lindelbrunnstraße 4 · 76767 Hagenbach</p><nav><a href="../../impressum.html">Impressum</a><a href="../../datenschutz.html">Datenschutz</a></nav></footer>
+</div>
 </body>
 </html>
 """
