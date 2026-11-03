@@ -187,7 +187,7 @@ const KONZEPTE = [
     logo: (t) => horizontal(t, { font: FONT.caslon, track: 0.03, subMixed: true, rules: false, colScale: 1.18 }), fav: () => fav.saeule(false) },
 ];
 
-module.exports = { KONZEPTE, THEMES, horizontal, stacked, crest, portal, monoF, column, fav, FONT };
+module.exports = { KONZEPTE, THEMES, horizontal, stacked, crest, portal, monoF, column, fav, FONT, text, tw, capH, fit, svg, colors, SUB };
 
 if (require.main === module) {
   const out = process.argv[2] || 'out-konzepte'; fs.mkdirSync(out, { recursive: true });
