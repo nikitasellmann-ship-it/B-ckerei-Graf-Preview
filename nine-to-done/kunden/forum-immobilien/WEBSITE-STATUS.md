@@ -62,6 +62,7 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Erste Fassung ist eine Vorführ-Version für das Gespräch mit Herrn Röher. Leistungen und Details werden danach mit ihm abgestimmt. Unbestätigtes wird nicht als Tatsache dargestellt.
 - 2026-11-03: Anrede Sie.
 - 2026-11-03: Logo wird für die Vorführ-Version als Vektordatei nachgebaut (Libre Caslon Text, Säule als SVG). Wird durch die Originaldatei ersetzt, sobald Herr Röher sie liefert.
+- 2026-11-03: Logo soll einen eigenen Touch bekommen und wertiger wirken. Runde 1 mit sechs Konzepten in `logo/entwuerfe/runde-1/vorschau.html`, Auswahl offen.
 
 ## Offene Fragen an die Person
 
