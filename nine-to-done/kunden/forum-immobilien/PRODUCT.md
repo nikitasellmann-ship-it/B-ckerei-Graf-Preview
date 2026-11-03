@@ -56,7 +56,7 @@ Ein Makler vor Ort in Hagenbach, der Inhaber persönlich als Ansprechpartner, mi
   (auf ImmoScout24 „Eckhard Röher“).
 - Markenfarbe der alten Seite: Marineblau `#272e61`.
 - Logo: „FORUM [Säule] IMMOBILIEN“ in blauen Serifen-Versalien, Unterzeile „Immobilien · Finanzierungen · Hausverwaltung“.
-  Vektor-Nachbau für die Vorführung in `logo/final/`, Original von Herrn Röher anfragen.
+  Für die Vorführung überarbeitet (Gold-Kapitell, feinere Schrift) in `logo/final/`. Original von Herrn Röher anfragen.
 - Anrede: **Sie**.
 - Domain: forum-roeher.de, E-Mail immo@forum-roeher.de.
 

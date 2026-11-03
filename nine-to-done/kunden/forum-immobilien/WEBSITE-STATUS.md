@@ -7,7 +7,7 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 | Phase | Name | Status | Datum |
 |---|---|---|---|
 | 0 | Einrichten | ✅ | 2026-11-03 |
-| 1 | Fundament | 🔄 | 2026-11-03 |
+| 1 | Fundament | ✅ | 2026-11-03 |
 | 2 | Recherche | ⬜ | |
 | 3 | Texte | ⬜ | |
 | 4 | Design-Richtung | ⬜ | |
@@ -33,19 +33,19 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 
 ## Marke
 
-Quellen: Live-Seite forum-roeher.de und Logo im ImmoScout24-Profil (Screenshot vom Kunden-Profil, 2026-11-03).
-Das Logo liegt nur als unscharfer Screenshot vor. Für die Vorführ-Version ist es als Vektordatei nachgebaut: `logo/final/`.
+Logo: Variante 1 aus Runde 2 (Konzept B, Gold-Kapitell), Dateien in `logo/final/`, Übersicht `logo/final/vorschau.html`.
+Vorführ-Version auf Basis des alten Logos (Screenshot ImmoScout24). Original von Herrn Röher anfragen.
 
 | Rolle | Wert |
 |---|---|
-| Hauptfarbe | Logo-Blau, vorläufig `#2e5b86`. Im Screenshot gemessen `#557892`, dort durch einen halbtransparenten Kasten aufgehellt. Endgültig aus der Originaldatei. |
-| Zweitfarbe | Marineblau `#272e61` (Kopfleiste der alten Website) |
-| Akzent | keiner |
+| Hauptfarbe | Tinte `#1e3a5f` (Schriftzug) |
+| Blau | `#2e5b86`, Hellblau `#5b84ad` (Säulenschaft) |
+| Akzent | Messing `#a8834a` auf Hell, `#c9a66b` auf Dunkel (Kapitell, Unterzeile, Linien) |
+| dunkle Fläche | Nachtblau `#1b2a4a` (Marineblau der alten Seite war `#272e61`) |
 | helle Fläche | Weiß |
-| Text | offen (Phase 4) |
-| Überschriften | Logo: klassische Serifen-Versalien. Nachbau mit Libre Caslon Text. Website-Schriften entscheidet Phase 4. |
-| Fließtext | offen (Phase 4) |
-| Merkmale | Säule als Zeichen zwischen „FORUM“ und „IMMOBILIEN“ (Forum = Säulenhalle), Unterzeile „Immobilien · Finanzierungen · Hausverwaltung“ |
+| Logo-Schrift | Cormorant Garamond 600 (Name), 700 (Unterzeile), als Pfade |
+| Website-Schriften | offen, Phase 4 |
+| Merkmale | Ionische Säule mit goldenem Kapitell zwischen „FORUM“ und „IMMOBILIEN“, Unterzeile „IMMOBILIEN · FINANZIERUNGEN · HAUSVERWALTUNG“ zwischen Messing-Haarlinien |
 
 ## Entscheidungen
 
@@ -63,6 +63,7 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Anrede Sie.
 - 2026-11-03: Logo wird für die Vorführ-Version als Vektordatei nachgebaut (Libre Caslon Text, Säule als SVG). Wird durch die Originaldatei ersetzt, sobald Herr Röher sie liefert.
 - 2026-11-03: Logo soll einen eigenen Touch bekommen und wertiger wirken. Runde 1 mit sechs Konzepten in `logo/entwuerfe/runde-1/vorschau.html`, Auswahl offen.
+- 2026-11-03: Gewählt: Variante 1 aus Runde 2 (reines Konzept B, ohne Rundbogen). Favicon: Säule mit goldenem Kapitell auf Blau. Phase 1 abgenommen.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
 
 ## Offene Fragen an die Person

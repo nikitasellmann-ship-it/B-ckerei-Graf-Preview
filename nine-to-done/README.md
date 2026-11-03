@@ -15,7 +15,7 @@ nine-to-done/
 
 | Projekt | Kunde | Status |
 |---|---|---|
-| [forum-immobilien](kunden/forum-immobilien/) | Forum Immobilien (Hans-Eckhard Röher), Hagenbach | Phase 1: Fundament |
+| [forum-immobilien](kunden/forum-immobilien/) | Forum Immobilien (Hans-Eckhard Röher), Hagenbach | Phase 2: Recherche (bereit) |
 
 Neue Kunden bekommen einen eigenen Ordner unter `kunden/` mit derselben Unterstruktur
 (`briefing/`, `inhalte/`, `design/`, `website/`).
