@@ -29,7 +29,7 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
   Öffnungszeiten dort: täglich 9 bis 20 Uhr (mit dem Kunden prüfen).
 - Hauptziel der Seite: Eigentümer gewinnen, die verkaufen wollen (Anfragen für Bewertung und Verkauf). Zweites Ziel: aktuelle Angebote zeigen.
 - Hosting: Hostinger
-- Werkzeuge: impeccable 🔄 (Anleitungen unter `.claude/skills/impeccable/` installiert, das Prüfprogramm ist in der Cloud-Sitzung gesperrt, daher ohne automatische Prüfungen) · Playwright ✅ · DataForSEO ✅ · Hosting-MCP ⬜ · Formular-Ziel ⬜
+- Werkzeuge: impeccable 🔄 (Anleitungen unter `.claude/skills/impeccable/` installiert, das Prüfprogramm ist in der Cloud-Sitzung gesperrt, daher ohne automatische Prüfungen) · Playwright ✅ · DataForSEO ✅ · Higgsfield 🔄 (1 Credit) · Hosting-MCP ⬜ · Formular-Ziel ⬜
 
 ## Marke
 
@@ -65,6 +65,7 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Logo soll einen eigenen Touch bekommen und wertiger wirken. Runde 1 mit sechs Konzepten in `logo/entwuerfe/runde-1/vorschau.html`, Auswahl offen.
 - 2026-11-03: Strategie bestätigt (vorläufig, wird nach Gespräch mit Herrn Röher angepasst): lokal Hagenbach plus Nachbarorte, „Verkauf, Finanzierung, Hausverwaltung aus einer Hand, Inhaber persönlich“.
 - 2026-11-03: Design-Referenzen von Nine to Done: apple.com, sondaven.com, sothebysrealty.com, lenvalproperties.com, Animationen wie webflow.com. Ziel: innovative, hochwertige Seite mit starken Animationen. Notizen in `referenzen/notizen.md`.
+- 2026-11-03: Higgsfield (KI-Bilder und -Videos) darf für Animationen genutzt werden. Stand: Free-Plan mit 1 Credit, für Videos muss Nine to Done Credits aufladen. Regel: KI-Bilder nur als Stimmung, nie als echtes Objekt oder echter Ort ausgeben.
 - 2026-11-03: Verkaufspsychologie recherchiert (24 Quellen), Checkliste in `recherche/verkaufspsychologie.md`.
 - 2026-11-03: Gewählt: Variante 1 aus Runde 2 (reines Konzept B, ohne Rundbogen). Favicon: Säule mit goldenem Kapitell auf Blau. Phase 1 abgenommen.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
