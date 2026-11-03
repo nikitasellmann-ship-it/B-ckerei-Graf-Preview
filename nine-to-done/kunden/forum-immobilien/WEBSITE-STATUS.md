@@ -68,13 +68,14 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Higgsfield (KI-Bilder und -Videos) darf für Animationen genutzt werden. Stand: Free-Plan mit 1 Credit, für Videos muss Nine to Done Credits aufladen. Regel: KI-Bilder nur als Stimmung, nie als echtes Objekt oder echter Ort ausgeben.
 - 2026-11-03: Verkaufspsychologie recherchiert (24 Quellen), Checkliste in `recherche/verkaufspsychologie.md`.
 - 2026-11-03: Phase 2 abgenommen.
+- 2026-11-03: Texte auf KI-Muster und Verkaufslogik geprüft (`recherche/ki-muster-pruefung.md`). Neuer Aufbau nach den Fragen des Eigentümers, Bewertung startet im Einstieg, keine Kicker, Karten oder nummerierten Schritte. Nine to Done gibt Freigabe, mit Phase 4 weiterzumachen.
 - 2026-11-03: Logo als Gestaltungsmotiv: drei Säulen = drei Leistungen, Säule als Fortschrittslinie, Ideen in `referenzen/notizen.md`.
 - 2026-11-03: Gewählt: Variante 1 aus Runde 2 (reines Konzept B, ohne Rundbogen). Favicon: Säule mit goldenem Kapitell auf Blau. Phase 1 abgenommen.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
 
 ## Offene Fragen an die Person
 
-- Phase 3: `texte.md` Runde 1 zur Durchsicht. Mit ⚑ markierte Sätze und die 18 offenen Fragen klärt Nine to Done mit Herrn Röher.
+- Phase 3: `texte.md` Runde 2 (nach KI-Muster-Prüfung) zur Durchsicht. Mit ⚑ markierte Sätze und die 18 offenen Fragen klärt Nine to Done mit Herrn Röher.
 - Für Herrn Röher: seit wann Makler, Zahl der Verkäufe, Referenzen, § 34c GewO, macht er WEG- und Mietverwaltung?, Provision nennen?
 
 - Originale Logo-Datei (SVG, PDF oder große PNG) von Herrn Röher anfragen, dann Farben neu messen.

@@ -1,6 +1,6 @@
 # Texte: Website Forum Immobilien, Hagenbach
 
-Stand 2026-11-03, Runde 1. Vorführ-Version von Nine to Done.
+Stand 2026-11-03, Runde 2 (Aufbau nach der Prüfung auf KI-Muster, siehe `recherche/ki-muster-pruefung.md`). Vorführ-Version von Nine to Done.
 Anrede durchgehend „Sie“. Ich-Form für Herrn Röher, weil er als Inhaber selbst Ansprechpartner ist.
 
 **⚑ = muss Herr Röher bestätigen.** Ohne Bestätigung wird der Satz vor dem Livegang gestrichen oder durch seine Antwort ersetzt.
@@ -22,198 +22,152 @@ In der Vorführ-Version sind diese Sätze dezent markiert (Hinweis „Entwurf“
 
 ## 2. Kopfzeile
 
-Logo (Kurzfassung) · Navigation: **Verkaufen** · **Wert ermitteln** · **Angebote** · **Leistungen** · **Über mich** · **Kontakt**
-Rechts: Telefon **07273 800365** (klickbar) · Button **Wert ermitteln**
+Logo (Kurzfassung) · Navigation: **Verkaufen** · **Wert ermitteln** · **Angebote** · **Hausverwaltung** · **Über mich** · **Kontakt**
+Rechts: Telefon **07273 800365** (klickbar)
 
 Mobil: Logo, Telefon-Symbol, Menü.
 
 ---
 
-## 3. Einstieg (Hero)
-
-Kleine Zeile über der Überschrift: Hagenbach · Südpfalz
+## 3. Einstieg: „Bin ich hier richtig?“
 
 # Ihr Immobilienmakler in Hagenbach
 
-Ich verkaufe Häuser und Wohnungen in Hagenbach und den Orten ringsum. Vom ersten Gespräch bis zum Notartermin haben Sie einen Ansprechpartner: mich. ⚑
+Ich verkaufe Häuser und Wohnungen in Hagenbach und den Orten ringsum, von meinem Büro in der Lindelbrunnstraße aus. Wenn Sie Forum Immobilien beauftragen, sprechen Sie vom ersten Termin bis zur Schlüsselübergabe mit mir. ⚑
 
-**Buttons:** [Wert meiner Immobilie erfahren] · [07273 800365 anrufen]
+**Erster Schritt der Bewertung, direkt hier anklickbar:**
+Was möchten Sie verkaufen oder bewerten lassen?
+[Einfamilienhaus] [Doppelhaushälfte] [Reihenhaus] [Wohnung] [Mehrfamilienhaus] [Grundstück]
+(Ein Klick öffnet Schritt 2 des Assistenten, siehe Formular.)
 
-**Belegleiste** (klein, unter den Buttons):
-Büro in der Lindelbrunnstraße 4 · Dipl.-Betriebswirt · ImmoScout24 Silber Partner seit 2025
+Lieber gleich sprechen? **07273 800365**
 
----
-
-## 4. Haltung und Leistungen (drei Säulen)
-
-Kleine Zeile über der Überschrift: Warum „Forum“
-
-## Verkauf, Finanzierung und Hausverwaltung aus einer Hand
-
-Im alten Rom war das Forum der Platz, an dem gehandelt und verhandelt wurde. Getragen wurde es von Säulen.
-
-Wer in Hagenbach ein Haus verkauft, hat meist mehr Fragen als nur die nach einem Käufer. Was ist das Haus wert? Bekommt der Interessent seine Finanzierung? Wer kümmert sich um die vermietete Wohnung, die bleiben soll? Bei Forum Immobilien laufen diese Fragen an einem Tisch zusammen. Sie erklären Ihr Anliegen einmal, ich behalte den Überblick.
-
-**Säule 1 · Verkauf**
-Vom Wert Ihrer Immobilie bis zur Schlüsselübergabe. ⚑
-[Mehr zum Verkauf]
-
-**Säule 2 · Finanzierung**
-Damit Käufer ihre Finanzierung sicher haben, bevor es zum Notar geht. ⚑
-[Mehr zur Finanzierung]
-
-**Säule 3 · Hausverwaltung**
-Für Eigentümer, die vermieten und sich nicht um alles selbst kümmern möchten. ⚑
-[Mehr zur Hausverwaltung]
-
-*Gestaltungshinweis: Die drei Säulen wachsen beim Scrollen aus dem Boden (Basis, Schaft, Kapitell) und tragen am Ende gemeinsam einen Querbalken mit dem Schriftzug FORUM. Das Logo wird so zur Leistungsübersicht.*
+*Gestaltung: echtes Foto aus Hagenbach oder von Herrn Röher. Keine Belegleiste. Die Belege stehen auf dem Türschild (Abschnitt 4).*
 
 ---
 
-## 5. Verkaufen
+## 4. Über mich: „Mit wem habe ich es zu tun?“
 
-## Ihre Immobilie in Hagenbach verkaufen
+## Hans-Eckhard Röher, Forum Immobilien
 
-Die meisten Eigentümer wollen zwei Dinge: einen guten Preis und keinen Besichtigungstourismus. Darauf ist mein Ablauf ausgerichtet. ⚑
+Ich bin Diplom-Betriebswirt und Inhaber von Forum Immobilien in Hagenbach. Seit [Jahr] vermittle ich Häuser und Wohnungen in der Südpfalz. ⚑ (Jahr fehlt)
 
-**Schritt 1 · Kennenlernen bei Ihnen vor Ort**
-Ich sehe mir Ihre Immobilie an und höre zu: Wann möchten Sie verkaufen, was ist Ihnen wichtig, wer entscheidet mit? ⚑
+Im alten Rom war das Forum der Platz, an dem gehandelt und verhandelt wurde. Bei mir kommt zusammen, was ein Verkauf braucht: der Verkauf selbst, die Finanzierung für den Käufer und, wenn Sie lieber vermieten, die Hausverwaltung. ⚑ (Umfang Finanzierung und Verwaltung)
 
-**Schritt 2 · Wert und Angebotspreis**
-Sie bekommen eine nachvollziehbare Einschätzung, was Ihre Immobilie heute wert ist. Daraus legen wir gemeinsam den Angebotspreis fest. ⚑
+**Türschild** (gestaltet wie das Messingschild am Büro):
+Forum Immobilien · Dipl.-Betriebswirt H.-E. Röher · Lindelbrunnstraße 4 · 76767 Hagenbach
+Silber Partner bei ImmoScout24 seit 2025
 
-**Schritt 3 · Unterlagen, Fotos, Exposé**
-Ich stelle die Unterlagen zusammen, die Käufer und Banken erwarten, und lasse aussagekräftige Fotos und Grundrisse anfertigen. Daraus entsteht das Exposé. ⚑
+**Foto:** Herr Röher, echtes Foto (fehlt).
 
-**Schritt 4 · Vermarktung und Besichtigungen**
-Ihr Angebot erscheint bei ImmoScout24 und auf dieser Website. Zusätzlich spreche ich Kaufinteressenten an, die bei mir bereits vorgemerkt sind. Besichtigungen führe ich selbst. ⚑
+**Button:** [Termin mit mir vereinbaren]
 
-**Schritt 5 · Notar und Übergabe**
-Ich bereite den Notartermin vor und bin bis zur Übergabe der Schlüssel Ihr Ansprechpartner. ⚑
-
-**Button:** [Verkauf besprechen]
-
-*Gestaltungshinweis: Die Säule aus dem Logo wächst beim Scrollen von Schritt zu Schritt mit.*
+*Gestaltung: Die drei Leistungen als drei Säulen unterschiedlicher Höhe hinter dem Text. Der Verkauf ist die tragende, größte. Keine Karten.*
 
 ---
 
-## 6. Wert ermitteln
+## 5. Wert und Nachfrage: „Was ist mein Haus wert, und wer kauft es?“
 
 ## Was ist mein Haus wert?
 
-Der erste Angebotspreis prägt, wie Käufer Ihr Haus einschätzen. Liegt er zu hoch, bleibt das Angebot liegen und verliert an Wert. Liegt er zu niedrig, verschenken Sie Geld, das sich später nicht mehr zurückholen lässt.
+Der erste Angebotspreis prägt, wie Käufer Ihr Haus einschätzen. Liegt er zu hoch, bleibt das Angebot liegen und verliert an Wert. Liegt er zu niedrig, verschenken Sie Geld, das sich später nicht zurückholen lässt.
 
-Deshalb beginnt jeder Verkauf mit einer Wertermittlung. Dazu gehören die Lage in Ihrem Ort, Größe, Baujahr, Zustand und der Energieausweis, denn die Energieeffizienz wirkt heute spürbar auf den Preis.
+Deshalb beginnt jeder Verkauf mit einer Wertermittlung. Ich schaue auf die Lage in Ihrem Ort, Größe, Baujahr und Zustand. Auch der Energieausweis zählt, denn die Energieeffizienz wirkt heute spürbar auf den Preis.
 
-Erzählen Sie mir in vier kurzen Schritten von Ihrer Immobilie. Ich melde mich dann bei Ihnen.
+**Daneben, als Notiz gestaltet:**
+### Gesucht für vorgemerkte Kunden
+Für Familien, die bei mir vorgemerkt sind, suche ich Einfamilienhäuser, Doppelhaushälften und Reihenhäuser in Hagenbach und Umgebung, auch mit Renovierungsbedarf. ⚑ (Amtsblatt-Anzeige April 2026, noch aktuell?)
 
-**Button:** [Bewertung anfragen] (öffnet den Assistenten, siehe Formular)
-
----
-
-## 7. Gesucht (echte Nachfrage)
-
-## Für vorgemerkte Kunden gesucht
-
-Für Familien, die bereits bei mir vorgemerkt sind, suche ich Einfamilienhäuser, Doppelhaushälften und Reihenhäuser in Hagenbach und Umgebung. Auch Häuser mit Renovierungsbedarf sind gefragt. ⚑ (Quelle: seine Anzeige im Amtsblatt Hagenbach, April 2026. Noch aktuell?)
-
-**Button:** [Mein Haus anbieten]
+**Bewertungs-Assistent** (dieselben vier Schritte wie oben, falls der Besucher oben noch nicht begonnen hat)
+**Button:** [Bewertung anfragen]
 
 ---
 
-## 8. Aktuelle Angebote
+## 6. Verkauf: „Wie läuft das ab, und was muss ich tun?“
 
-## Aktuelle Immobilien in Hagenbach und Umgebung
+## So verkaufe ich Ihre Immobilie in Hagenbach
 
-Hier sehen Sie, was ich derzeit anbiete. Jedes Angebot hat ein eigenes Exposé mit allen Bildern und Daten.
+Die meisten Eigentümer wünschen sich einen guten Preis und wenig Unruhe im Haus. Danach richte ich den Verkauf aus. ⚑
 
-**Karte je Objekt** (aus den Objektdaten): Titel · Ort · Kaufpreis · Wohnfläche · Zimmer · Button **[Exposé ansehen]**
+**Bei Ihnen zu Hause**
+Ich sehe mir die Immobilie an und frage, was Ihnen wichtig ist: Zeitpunkt, Preis, wer mitentscheidet. ⚑
+
+**Am Schreibtisch**
+Sie bekommen eine nachvollziehbare Wertermittlung. Daraus legen wir gemeinsam den Angebotspreis fest. ⚑
+
+**Unterlagen und Bilder**
+Ich stelle zusammen, was Käufer und Banken sehen wollen, vom Grundbuchauszug bis zum Energieausweis. Fotos und Grundrisse werden für das Exposé aufbereitet. ⚑
+
+**Im Markt**
+Ihr Angebot erscheint bei ImmoScout24 und auf dieser Website. Vorgemerkte Kaufinteressenten spreche ich direkt an. Besichtigungen mache ich selbst. ⚑
+
+**Bei der Bank des Käufers**
+Ein Verkauf steht erst, wenn die Finanzierung des Käufers steht. Deshalb kümmere ich mich auch darum und helfe Käufern, eine passende Finanzierung zu finden. ⚑ (Wie genau?)
+
+**Beim Notar**
+Ich bereite den Termin vor und bin bis zur Übergabe der Schlüssel für Sie da. ⚑
+
+**Button:** [Verkauf mit mir besprechen]
+
+*Gestaltung: keine Nummern. Die Säule wächst an den Stationen entlang. Bei „Beim Notar“ setzt sich das goldene Kapitell auf.*
+
+---
+
+## 7. Angebote: „Verkauft er hier überhaupt?“
+
+## Aktuell bei Forum Immobilien
+
+Diese Häuser und Wohnungen biete ich gerade an. Jedes Angebot hat ein eigenes Exposé mit allen Bildern und Daten.
+
+**Darstellung:** Karte von Hagenbach und Umgebung mit den Objekten als Punkte, darunter die Objekte als Liste.
+Je Objekt: Titel · Ort · Kaufpreis · Wohnfläche · Zimmer · [Exposé ansehen]
 Kennzeichnung neu oder reserviert, falls in den Daten gesetzt.
 
-**Unter den Karten:**
-Nicht das Passende dabei? Hinterlassen Sie Ihren Suchwunsch, dann melde ich mich, sobald etwas Passendes hereinkommt. ⚑
-**Button:** [Suchwunsch hinterlassen]
+**Für Suchende:**
+Nicht das Passende dabei? Hinterlassen Sie Ihren Suchwunsch. ⚑
+[Suchwunsch hinterlassen]
 
 **Wenn gerade kein Objekt online ist:**
-Gerade ist kein Angebot online. Viele Häuser vermittle ich, bevor sie überhaupt inseriert werden. Hinterlassen Sie Ihren Suchwunsch. ⚑
+Gerade ist kein Angebot online. Hinterlassen Sie Ihren Suchwunsch, dann melde ich mich, wenn etwas Passendes hereinkommt. ⚑
+
+**Unter der Karte, die betreuten Orte:**
+Hagenbach · Wörth am Rhein · Kandel · Jockgrim · Rheinzabern · Neuburg am Rhein · Berg (Pfalz) · Scheibenhardt · Germersheim ⚑ (Gebiet bestätigen)
+Wege ab dem Büro (vor dem Bau mit dem Routenplaner geprüft): Wörth, Kandel, Karlsruhe, Landau ⚑
 
 *Hinweis Vorführ-Version: Die sechs Angebote vom 3. November 2026 (ImmoScout24) dienen als Beispieldaten.*
 
 ---
 
-## 9. Finanzierung
+## 8. Hausverwaltung: „Und wenn ich nicht verkaufen will?“
 
-## Finanzierung für Käufer
+## Behalten, vermieten, verwalten lassen
 
-Ein Haus ist erst verkauft, wenn die Finanzierung des Käufers steht. Deshalb kümmere ich mich auch darum. Käufer bekommen bei mir Unterstützung, eine Finanzierung zu finden, die zu Einkommen und Vorhaben passt. ⚑ (Wie genau: eigene Vermittlung, Partnerbank, Finanzierungsberater?)
-
-Für Verkäufer heißt das: weniger Absagen kurz vor dem Notartermin.
-
-**Button:** [Finanzierung anfragen]
-
----
-
-## 10. Hausverwaltung
-
-## Hausverwaltung im Kreis Germersheim
-
-Sie möchten eine Wohnung oder ein Haus behalten und vermieten, aber sich nicht selbst um alles kümmern? Forum Immobilien übernimmt die Verwaltung. ⚑ (Welche Arten: WEG-Verwaltung, Mietverwaltung, Sondereigentumsverwaltung? Für welche Orte?)
+Nicht jeder, der über einen Verkauf nachdenkt, verkauft am Ende. Manche Eigentümer behalten die Wohnung oder das Haus und vermieten. Forum Immobilien übernimmt dann die Verwaltung, damit Sie sich nicht um alles selbst kümmern müssen. Die Hausverwaltung gibt es für Hagenbach und die Orte im Kreis Germersheim. ⚑ (Arten der Verwaltung und Gebiet)
 
 **Button:** [Verwaltung anfragen]
 
 ---
 
-## 11. Lage und Region
-
-## Zu Hause in Hagenbach und der Südpfalz
-
-Hagenbach liegt am Rhein, zwischen Wörth, Kandel und der französischen Grenze. Karlsruhe ist nah, der Bienwald direkt vor der Tür. ⚑ (Lage vor dem Bau mit Karte prüfen)
-
-**Wege ab Hagenbach** (Minuten werden vor dem Bau mit einem Routenplaner geprüft):
-Wörth am Rhein · Kandel · Karlsruhe · Landau · Bahnhof Hagenbach ⚑
-
-**Hier bin ich für Sie unterwegs:**
-Hagenbach · Wörth am Rhein · Kandel · Jockgrim · Rheinzabern · Neuburg am Rhein · Berg (Pfalz) · Scheibenhardt · Germersheim ⚑ (Gebiet bestätigen)
-
----
-
-## 12. Über mich
-
-## Ihr Ansprechpartner: Hans-Eckhard Röher
-
-Ich bin Diplom-Betriebswirt und Inhaber von Forum Immobilien. Mein Büro liegt in der Lindelbrunnstraße 4 in Hagenbach.
-
-Ich arbeite seit [Jahr] als Immobilienmakler. ⚑ (Jahr fehlt) Bei ImmoScout24 bin ich seit 2025 Silber Partner.
-
-Wenn Sie Forum Immobilien beauftragen, sprechen Sie mit mir, vom ersten Termin bis zur Schlüsselübergabe. ⚑
-
-**Foto:** Herr Röher im Büro oder vor einem Objekt in Hagenbach (echtes Foto, fehlt).
-
-**Button:** [Termin vereinbaren]
-
----
-
-## 13. Bewertungen
+## 9. Bewertungen: „Was sagen andere?“
 
 ## Was Kunden über Forum Immobilien schreiben
 
-Bewertungen von Kunden finden Sie bei Google und bei ImmoScout24.
+Bewertungen von Kunden stehen bei Google und bei ImmoScout24, jeweils mit Datum.
+[Bewertungen bei Google] · [Bewertungen bei ImmoScout24]
 
-**Links:** [Bewertungen bei Google] · [Bewertungen bei ImmoScout24]
-
-*Kundenstimmen als Zitat erst mit schriftlicher Erlaubnis der Kunden. Ob die Sternezahl angezeigt wird, entscheidet Herr Röher. ⚑*
+*Sterne nur mit Quelle und Stand, z. B. „4,4 von 5 bei ImmoScout24, 3 Bewertungen, Stand November 2026“. Ob sie angezeigt werden, entscheidet Herr Röher. Kundenzitate nur mit schriftlicher Erlaubnis. ⚑*
 
 ---
 
-## 14. Häufige Fragen
+## 10. Häufige Fragen: „Was kostet das, was brauche ich?“
 
 ## Häufige Fragen zum Immobilienverkauf
 
 **Was ist mein Haus in Hagenbach wert?**
-Das hängt von Lage, Größe, Baujahr, Zustand und Energieeffizienz ab, und davon, was vergleichbare Häuser in der Gegend zuletzt gekostet haben. Eine verlässliche Zahl gibt es erst nach einer Besichtigung. Über den Assistenten oben können Sie eine Bewertung anfragen.
+Das hängt von Lage, Größe, Baujahr, Zustand und Energieeffizienz ab und davon, was vergleichbare Häuser in der Gegend zuletzt gekostet haben. Eine verlässliche Zahl gibt es erst nach einer Besichtigung. Über den Assistenten oben können Sie eine Bewertung anfragen.
 
 **Lohnt sich ein Makler, oder verkaufe ich besser selbst?**
-Selbst verkaufen ist möglich. Dann übernehmen Sie Preisfindung, Unterlagen, Exposé, Anfragen, Besichtigungen, Verhandlung und die Vorbereitung des Notartermins selbst. Rund zwei Drittel der Immobilien in Deutschland werden über Makler verkauft. Rufen Sie mich an, dann sprechen wir offen darüber, was in Ihrem Fall sinnvoll ist.
+Selbst verkaufen ist möglich. Dann übernehmen Sie Preisfindung, Unterlagen, Exposé, Anfragen, Besichtigungen, Verhandlung und die Vorbereitung des Notartermins. Laut ImmoScout24 wurden zuletzt rund 65 Prozent der Immobilien über Makler verkauft. Rufen Sie mich an, dann sprechen wir offen darüber, was in Ihrem Fall sinnvoll ist.
 
 **Was kostet ein Makler beim Verkauf?**
 Beim Verkauf eines Einfamilienhauses oder einer Wohnung an Privatleute gilt seit Dezember 2020: Beauftragt der Verkäufer den Makler, zahlt der Käufer höchstens den gleichen Anteil an der Provision wie der Verkäufer. Wie hoch die Provision bei mir ist, sage ich Ihnen im ersten Gespräch. ⚑ (Oder Provision hier nennen?)
@@ -225,7 +179,7 @@ Typisch sind ein aktueller Grundbuchauszug, der Energieausweis, Grundrisse und d
 Ja. Wer ein Haus oder eine Wohnung verkauft, muss Kaufinteressenten den Energieausweis spätestens bei der Besichtigung vorlegen. Die wichtigsten Werte gehören schon in die Anzeige.
 
 **Ich habe ein Haus geerbt. Wie gehe ich vor?**
-Zuerst klären Sie, wer im Grundbuch eingetragen werden muss und ob alle Erben verkaufen möchten. Danach geht es wie bei jedem Verkauf weiter, nur mit mehr Abstimmung. Ich habe bereits Erben beim Verkauf eines Familienhauses begleitet, auch wenn sie nicht in der Region wohnten. ⚑ (Quelle: Kundenbewertung bei ImmoScout24, Zitat erst mit Erlaubnis)
+Zuerst klären Sie, wer ins Grundbuch eingetragen werden muss und ob alle Erben verkaufen möchten. Danach läuft der Verkauf wie jeder andere, nur mit mehr Abstimmung. Ich habe schon Erben begleitet, die nicht in der Region wohnten. ⚑ (Quelle: Kundenbewertung bei ImmoScout24)
 
 **Wie lange dauert ein Verkauf?**
 Das hängt vom Preis, von der Art der Immobilie und von der Nachfrage im Ort ab. Eine ehrliche Einschätzung bekommen Sie nach der Besichtigung.
@@ -235,50 +189,49 @@ Ja, Forum Immobilien bietet auch Hausverwaltung an. Sprechen Sie mich an. ⚑
 
 ---
 
-## 15. Kontakt
+## 11. Kontakt: „Wie erreiche ich ihn?“
 
 ## Sprechen wir über Ihre Immobilie
 
-Rufen Sie mich an oder schreiben Sie mir. Wenn Sie lieber zurückgerufen werden möchten, hinterlassen Sie Ihre Nummer.
+Rufen Sie an, schreiben Sie mir oder hinterlassen Sie Ihre Nummer, dann rufe ich zurück. ⚑
 
-**Forum Immobilien**
-Dipl.-Betriebswirt Hans-Eckhard Röher
+**Bürokarte:**
+Forum Immobilien · Dipl.-Betriebswirt Hans-Eckhard Röher
 Lindelbrunnstraße 4, 76767 Hagenbach
-
 Telefon 07273 800365 · Mobil 01520 1725277 · Fax 07273 800366
-E-Mail immo@forum-roeher.de
-
+immo@forum-roeher.de
 Öffnungszeiten: ⚑ (Google nennt täglich 9 bis 20 Uhr. Stimmt das?)
+[Anfahrt in Google Maps]
 
 **Buttons:** [Anrufen] · [E-Mail schreiben] · [Rückruf erbitten]
 
 ---
 
-## 16. Fußzeile
+## 12. Fußzeile
 
 Logo mit Unterzeile · Forum Immobilien · Lindelbrunnstraße 4 · 76767 Hagenbach
-Links: Impressum · Datenschutz · Cookie-Einstellungen (nur falls nötig, Phase 7)
+Impressum · Datenschutz · Cookie-Einstellungen (nur falls nötig, Phase 7)
 Profile: Google · ImmoScout24
 © 2026 Forum Immobilien
 
 ---
 
-## 17. Formular „Bewertung anfragen“ (Assistent in vier Schritten)
+## 13. Formular „Bewertung anfragen“ (Assistent in vier Schritten)
 
-Kopf: **Bewertung anfragen** · Fortschritt: Schritt 1 von 4
+Kopf: **Bewertung anfragen** · Fortschritt als kleine Säule, die sich füllt (keine Zahlen „1 von 4“)
 
-**Schritt 1 · Was möchten Sie bewerten lassen?** (eine Auswahl, Pflicht)
+**Teil 1 · Was möchten Sie bewerten lassen?** (eine Auswahl, Pflicht, auch direkt im Einstieg)
 Einfamilienhaus · Doppelhaushälfte · Reihenhaus · Wohnung · Mehrfamilienhaus · Grundstück
 
-**Schritt 2 · Wo liegt die Immobilie?** (Pflicht)
+**Teil 2 · Wo liegt die Immobilie?** (Pflicht)
 Hagenbach · Wörth am Rhein · Kandel · Jockgrim · Rheinzabern · Neuburg am Rhein · Berg (Pfalz) · Germersheim · anderer Ort (Freitext)
 
-**Schritt 3 · Ein paar Eckdaten** (alles freiwillig)
+**Teil 3 · Ein paar Eckdaten** (alles freiwillig)
 Wohnfläche ca. (m²) · Grundstück ca. (m²) · Baujahr ca. · Zimmer
 Was haben Sie vor? Verkaufen in den nächsten Monaten · Verkaufen, aber später · Erst einmal den Wert wissen · Vermieten oder verwalten lassen
-Hinweis unter dem Schritt: Schätzungen reichen völlig.
+Hinweis darunter: Schätzungen reichen völlig.
 
-**Schritt 4 · Wie erreiche ich Sie?**
+**Teil 4 · Wie erreiche ich Sie?**
 Vorname und Nachname (Pflicht)
 Telefon (Pflicht, Hinweis: Für Rückfragen zur Immobilie.)
 E-Mail (freiwillig)
@@ -305,7 +258,7 @@ Bei dringenden Fragen erreichen Sie mich unter 07273 800365.
 
 ---
 
-## 18. Objektseite (Vorlage, wird aus den Objektdaten gefüllt)
+## 14. Objektseite (Vorlage, wird aus den Objektdaten gefüllt)
 
 **Seitentitel:** {Objektart} kaufen in {Ort} · {Zimmer} Zimmer · {Wohnfläche} m² · Forum Immobilien
 **Meta-Beschreibung:** {Objektart} in {Ort}, {Wohnfläche} m² Wohnfläche, {Zimmer} Zimmer, Kaufpreis {Preis}. Exposé, Bilder und Besichtigung bei Forum Immobilien.
@@ -318,7 +271,7 @@ Zurück-Link: Alle Angebote
 
 ---
 
-## 19. Seite nicht gefunden (404)
+## 15. Seite nicht gefunden (404)
 
 ## Diese Seite gibt es nicht (mehr)
 
@@ -327,7 +280,7 @@ Vielleicht wurde das Angebot inzwischen verkauft.
 
 ---
 
-## 20. Faktensätze (für strukturierte Daten, llms.txt und KI-Suchen)
+## 16. Faktensätze (für strukturierte Daten, llms.txt und KI-Suchen)
 
 - Forum Immobilien ist ein Immobilienmaklerbüro in 76767 Hagenbach (Landkreis Germersheim, Rheinland-Pfalz), Lindelbrunnstraße 4.
 - Inhaber von Forum Immobilien ist Dipl.-Betriebswirt Hans-Eckhard Röher, auf ImmoScout24 als Eckhard Röher geführt.
@@ -342,7 +295,7 @@ Vielleicht wurde das Angebot inzwischen verkauft.
 
 ---
 
-## 21. Offene Fragen an Herrn Röher
+## 17. Offene Fragen an Herrn Röher
 
 Gesammelt für das Gespräch. Antworten werden wörtlich übernommen.
 
