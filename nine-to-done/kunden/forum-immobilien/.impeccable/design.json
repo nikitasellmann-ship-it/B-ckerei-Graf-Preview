@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T22:25:33.942399+00:00",
+  "title": "Design System: Forum Immobilien",
+  "extensions": {
+    "colorMeta": {
+      "cover": {
+        "role": "primary",
+        "displayName": "Pressspan-Marineblau",
+        "canonical": "#272e61",
+        "tonalRamp": [
+          "#1d2350",
+          "#272e61",
+          "#3a4384",
+          "#bfc5e0"
+        ]
+      },
+      "stamp": {
+        "role": "secondary",
+        "displayName": "Stempelviolett",
+        "canonical": "#5a3c8e"
+      },
+      "tab-sand": {
+        "role": "tertiary",
+        "displayName": "Registerkarton Sandstein",
+        "canonical": "#8f4636"
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Blattweiß",
+        "canonical": "#ffffff"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinte",
+        "canonical": "#16273c"
+      },
+      "form": {
+        "role": "neutral",
+        "displayName": "Formularblau",
+        "canonical": "#6f87a0"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Rückenschild",
+        "purpose": "Nur die H1 auf dem Rückenschild der Mappe."
+      },
+      "headline": {
+        "displayName": "Blattüberschrift",
+        "purpose": "Eine Überschrift pro Blatt."
+      },
+      "typed": {
+        "displayName": "Eintragung",
+        "purpose": "Telefonnummern, Preise, Flächen, Formulareingaben."
+      }
+    },
+    "shadows": [
+      {
+        "name": "blattkante",
+        "value": "0 -1px 0 #d9dee6, 0 -14px 24px -18px #0006",
+        "purpose": "Übergang zwischen gestapelten Blättern."
+      },
+      {
+        "name": "loses-papier",
+        "value": "0 12px 24px -12px #000c",
+        "purpose": "Visitenkarte, Notiz, Karteikarten."
+      },
+      {
+        "name": "mappe",
+        "value": "0 30px 60px -30px #000c",
+        "purpose": "Aufgeschlagene Mappe und Rückdeckel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-akte",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Alle Übergänge."
+      },
+      {
+        "name": "stempel",
+        "value": "0.38s, scale 2 auf 1, rotate -16deg auf -7deg",
+        "purpose": "Stempel auf dem Laufzettel und nach dem Absenden."
+      },
+      {
+        "name": "saeulen",
+        "value": "1.4s scaleY von unten, 0.2s versetzt",
+        "purpose": "Säulen auf dem Blatt des Inhabers."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "handy-stempel",
+        "value": "479px"
+      },
+      {
+        "name": "blatt-spalten",
+        "value": "900px"
+      },
+      {
+        "name": "mappe-offen",
+        "value": "980px"
+      },
+      {
+        "name": "register-leiste",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primärer Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hauptaktion auf einem Blatt.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Termin mit mir vereinbaren</a>",
+      "css": ".ds-btn{display:inline-flex;font:600 1.08rem/1 'Barlow Semi Condensed',sans-serif;color:#f2f5f9;background:#272e61;border:2px solid #272e61;padding:15px 20px;border-radius:3px;text-decoration:none;transition:background .25s,transform .25s}.ds-btn:hover{background:#1d2350;transform:translateY(-1px)}.ds-btn:focus-visible{outline:3px solid #d8b24e;outline-offset:3px}"
+    },
+    {
+      "name": "Ankreuzkästchen",
+      "kind": "input",
+      "refersTo": "tick-box",
+      "description": "Auswahl im Bewertungsbogen.",
+      "html": "<label class=\"ds-tick\"><input type=\"radio\" name=\"a\" checked><span class=\"b\"></span>Doppelhaushälfte</label>",
+      "css": ".ds-tick{position:relative;display:flex;gap:12px;align-items:center;padding:14px;border:1px solid #6f87a0;background:#f4f7fa;font:1.05rem 'Atkinson Hyperlegible Next',sans-serif;color:#16273c;cursor:pointer}.ds-tick input{position:absolute;opacity:0;inset:0}.ds-tick .b{width:22px;height:22px;border:1.5px solid #16273c;background:#fff;display:grid;place-items:center;font:700 21px/1 'Courier Prime',monospace;color:#5a3c8e}.ds-tick input:checked+.b::after{content:'X'}.ds-tick:hover{background:#e6edf4}"
+    },
+    {
+      "name": "Stempel",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Vermerk auf dem Laufzettel.",
+      "html": "<span class=\"ds-mark\">Beurkundet</span>",
+      "css": ".ds-mark{display:inline-block;font:700 .98rem/1 'Barlow Semi Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#5a3c8e;border:2px solid #5a3c8e;padding:7px 9px;transform:rotate(-7deg)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Die Verkaufsmappe",
+    "overview": "Die Website ist die Mappe, die Herr Röher beim Hausbesuch auf den Küchentisch legt: marineblauer Pressspan, hochweiße Blätter, farbige Registerreiter. Jeder Abschnitt ist ein Dokument aus dem Maklerbüro. Bewegung kommt aus dem Büroalltag: stempeln, abhaken, aufbauen.",
+    "keyCharacteristics": [
+      "Pressspan-Grund, weiße Blätter",
+      "Register als einzige Navigation",
+      "Formular-Sprache mit Courier-Eintragungen",
+      "Violett nur als Stempeltinte"
+    ],
+    "rules": [
+      {
+        "name": "Die Stempel-Regel",
+        "body": "Violett nur als Tinte, nie als Fläche.",
+        "section": "colors"
+      },
+      {
+        "name": "Die Kein-Creme-Regel",
+        "body": "Blätter sind hochweiß.",
+        "section": "colors"
+      },
+      {
+        "name": "Die Eintragungs-Regel",
+        "body": "Eingetragenes steht in Courier.",
+        "section": "typography"
+      },
+      {
+        "name": "Die Stapel-Regel",
+        "body": "Blätter liegen gestapelt, keine harten Versatzschatten.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Jedes neue Thema als eigenes Blatt mit Reiter",
+      "Telefonnummern nie umbrechen",
+      "Bewegung abschaltbar über prefers-reduced-motion"
+    ],
+    "donts": [
+      "Keine Etiketten über Überschriften",
+      "Kein imitiertes Metall oder Leder",
+      "Kein Creme",
+      "Keine Leistungskarten in gleicher Reihe oder ungleicher Höhe"
+    ]
+  }
+}
