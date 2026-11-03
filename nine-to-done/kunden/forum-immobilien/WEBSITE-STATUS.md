@@ -8,7 +8,7 @@ Status: ✅ erledigt · 🔄 läuft · ⬜ offen
 |---|---|---|---|
 | 0 | Einrichten | ✅ | 2026-11-03 |
 | 1 | Fundament | ✅ | 2026-11-03 |
-| 2 | Recherche | ⬜ | |
+| 2 | Recherche | 🔄 | 2026-11-03 |
 | 3 | Texte | ⬜ | |
 | 4 | Design-Richtung | ⬜ | |
 | 5 | Bauen | ⬜ | |
@@ -67,6 +67,9 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
 
 ## Offene Fragen an die Person
+
+- Phase 2: Design-Referenzen fehlen (3 bis 5 Lieblingsseiten oder Screenshots). Strategie bestätigen: lokal Hagenbach plus Nachbarorte, Positionierung „alles aus einer Hand, Inhaber persönlich“.
+- Für Herrn Röher: seit wann Makler, Zahl der Verkäufe, Referenzen, § 34c GewO, macht er WEG- und Mietverwaltung?, Provision nennen?
 
 - Originale Logo-Datei (SVG, PDF oder große PNG) von Herrn Röher anfragen, dann Farben neu messen.
 - Mit Herrn Röher klären: Umfang der Leistungen Finanzierungen und Hausverwaltung, Jahre Erfahrung, Mitgliedschaften, Foto, Öffnungszeiten, Bewertungen zeigen?, Provision nennen?
