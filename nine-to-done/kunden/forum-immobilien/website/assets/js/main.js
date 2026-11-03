@@ -70,7 +70,7 @@
     current = n;
     steps.forEach(function (s) { s.hidden = Number(s.dataset.step) !== n; });
     btnBack.hidden = n === 1; btnNext.hidden = n === steps.length; btnSubmit.hidden = n !== steps.length;
-    parts.forEach(function (p) { var k = Number(p.dataset.part); p.classList.toggle("done", k < n); p.classList.toggle("now", k === n); p.textContent = (k < n ? "X " : "") + "Teil " + k; });
+    parts.forEach(function (p) { var k = Number(p.dataset.part); p.classList.toggle("done", k < n); p.classList.toggle("now", k === n); p.textContent = (k < n ? "X " : "") + "Feld " + k; });
     progressText.textContent = "Bewertung anfragen, Teil " + n + " von " + steps.length;
     if (focus) focusLegend(n);
   }
@@ -115,6 +115,8 @@
     setTimeout(function () { focusLegend(current); }, reduce ? 0 : 700);
   }
   document.querySelectorAll('[data-quickstart] input[name="q-art"]').forEach(function (r) { r.addEventListener("change", function () { startAt(r.value); }); });
+  /* Kreuz im Bogen und im Einstieg bleiben gleich */
+  form.querySelectorAll('input[name="objektart"]').forEach(function (r) { r.addEventListener("change", function () { var q = document.querySelector('[data-quickstart] input[value="' + r.value + '"]'); if (q) q.checked = true; }); });
   document.querySelectorAll("[data-start-assist]").forEach(function (a) { a.addEventListener("click", function (e) { e.preventDefault(); startAt(null); }); });
 
   function collect() {
@@ -132,7 +134,7 @@
   function success() {
     var dt = document.getElementById("stamp-date");
     if (dt) dt.textContent = new Date().toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" });
-    parts.forEach(function (p) { p.classList.add("done"); p.classList.remove("now"); p.textContent = "X Teil " + p.dataset.part; });
+    parts.forEach(function (p) { p.classList.add("done"); p.classList.remove("now"); p.textContent = "X Feld " + p.dataset.part; });
     wrap.classList.add("is-sent"); successEl.hidden = false; successEl.focus();
   }
   form.addEventListener("submit", function (e) {

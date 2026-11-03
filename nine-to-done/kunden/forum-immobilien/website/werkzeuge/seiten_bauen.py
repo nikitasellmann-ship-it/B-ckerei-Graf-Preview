@@ -53,7 +53,7 @@ def list_item(o):
     p = o["preise"].get("kaufpreis")
     fx = " · ".join([ort] + facts(o))
     price = f'<span class="price">{euro(p)}</span>' if p else ""
-    return (f'          <li class="idx"><a href="immobilien/{o["slug"]}/">{parcel(o["scout_id"])}'
+    return (f'          <li class="idx"><a href="immobilien/{o["slug"]}/"><figure>{parcel(o["scout_id"])}<figcaption>Fotos folgen</figcaption></figure>'
             f'<div><h3>{t}</h3><p class="facts">{fx}{price}</p></div></a></li>')
 
 
