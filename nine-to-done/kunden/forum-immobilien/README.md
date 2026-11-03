@@ -1,6 +1,6 @@
-# Eckhardt Röhrer Immobilien: Website
+# Forum Immobilien: Website
 
-Auftrag: Webseite für das Maklerbüro **Eckhardt Röhrer Immobilien** in Hagenbach, umgesetzt von **Nine to Done**.
+Auftrag: Webseite für das Maklerbüro **Forum Immobilien** (Hans-Eckhard Röher) in Hagenbach. Bestehende Seite: https://www.forum-roeher.de, umgesetzt von **Nine to Done**.
 
 Gebaut wird mit dem Skill `website-bauen` (liegt unter `.claude/skills/website-bauen/` im Repo).
 Den aktuellen Stand zeigt [WEBSITE-STATUS.md](WEBSITE-STATUS.md). In einem neuen Chat geht es mit `/website-bauen weiter` weiter.

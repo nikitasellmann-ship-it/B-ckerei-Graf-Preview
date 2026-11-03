@@ -8,14 +8,14 @@
 nine-to-done/
 ├── agentur/            # Interne Unterlagen von Nine to Done (Vorlagen, Prozesse, Branding)
 └── kunden/             # Ein Unterordner pro Kundenprojekt
-    └── eckhardt-roehrer-immobilien/  # Website für das Maklerbüro in Hagenbach
+    └── forum-immobilien/  # Website für das Maklerbüro in Hagenbach
 ```
 
 ## Kundenprojekte
 
 | Projekt | Kunde | Status |
 |---|---|---|
-| [eckhardt-roehrer-immobilien](kunden/eckhardt-roehrer-immobilien/) | Eckhardt Röhrer Immobilien, Hagenbach | Phase 0: Einrichten |
+| [forum-immobilien](kunden/forum-immobilien/) | Forum Immobilien (Hans-Eckhard Röher), Hagenbach | Phase 1: Fundament |
 
 Neue Kunden bekommen einen eigenen Ordner unter `kunden/` mit derselben Unterstruktur
 (`briefing/`, `inhalte/`, `design/`, `website/`).

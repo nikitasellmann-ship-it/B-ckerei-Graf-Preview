@@ -1,0 +1,1 @@
+Quelle: https://github.com/pbakaus/impeccable (Commit 9fadc41, Version 4.8.0, Apache 2.0)
