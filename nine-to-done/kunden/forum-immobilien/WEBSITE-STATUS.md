@@ -63,12 +63,15 @@ Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 - 2026-11-03: Anrede Sie.
 - 2026-11-03: Logo wird für die Vorführ-Version als Vektordatei nachgebaut (Libre Caslon Text, Säule als SVG). Wird durch die Originaldatei ersetzt, sobald Herr Röher sie liefert.
 - 2026-11-03: Logo soll einen eigenen Touch bekommen und wertiger wirken. Runde 1 mit sechs Konzepten in `logo/entwuerfe/runde-1/vorschau.html`, Auswahl offen.
+- 2026-11-03: Strategie bestätigt (vorläufig, wird nach Gespräch mit Herrn Röher angepasst): lokal Hagenbach plus Nachbarorte, „Verkauf, Finanzierung, Hausverwaltung aus einer Hand, Inhaber persönlich“.
+- 2026-11-03: Design-Referenzen von Nine to Done: apple.com, sondaven.com, sothebysrealty.com, lenvalproperties.com, Animationen wie webflow.com. Ziel: innovative, hochwertige Seite mit starken Animationen. Notizen in `referenzen/notizen.md`.
+- 2026-11-03: Verkaufspsychologie recherchiert (24 Quellen), Checkliste in `recherche/verkaufspsychologie.md`.
 - 2026-11-03: Gewählt: Variante 1 aus Runde 2 (reines Konzept B, ohne Rundbogen). Favicon: Säule mit goldenem Kapitell auf Blau. Phase 1 abgenommen.
 - 2026-11-03: Empfehlung Konzept B (Gold-Kapitell) plus Rundbogen aus C als Bildmarke. Runde 2 mit fünf Varianten in `logo/entwuerfe/runde-2/vorschau.html`.
 
 ## Offene Fragen an die Person
 
-- Phase 2: Design-Referenzen fehlen (3 bis 5 Lieblingsseiten oder Screenshots). Strategie bestätigen: lokal Hagenbach plus Nachbarorte, Positionierung „alles aus einer Hand, Inhaber persönlich“.
+- Phase 2: Abnahme der Referenz-Notizen und der Checkliste aus `recherche/verkaufspsychologie.md`.
 - Für Herrn Röher: seit wann Makler, Zahl der Verkäufe, Referenzen, § 34c GewO, macht er WEG- und Mietverwaltung?, Provision nennen?
 
 - Originale Logo-Datei (SVG, PDF oder große PNG) von Herrn Röher anfragen, dann Farben neu messen.
