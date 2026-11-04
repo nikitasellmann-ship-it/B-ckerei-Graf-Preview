@@ -78,12 +78,12 @@ p:last-child { margin-bottom: 0; }
 /* Vorführ-Hinweis */
 .demo { display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; padding: 8px var(--pad); background: var(--stone); color: var(--muted); font-size: .8125rem; line-height: 1.4; text-align: center; }
 .demo p { margin: 0; }
+.demo-short { display: none; }
 .demo button { font: inherit; color: var(--navy); background: none; border: 0; border-bottom: 1px solid currentColor; padding: 0; cursor: pointer; }
 /* Unbestätigte Angaben: standardmäßig gepunktet unterstrichen, "Markierungen ausblenden" zeigt die saubere Vorschau */
 span.draft, p.draft { text-decoration: underline dotted var(--gold); text-decoration-thickness: 2px; text-underline-offset: 5px; }
-aside.draft { outline: 1px dashed var(--gold); outline-offset: 14px; }
 .clean-preview span.draft, .clean-preview p.draft { text-decoration: none; }
-.clean-preview aside.draft { outline: 0; }
+
 
 /* Kopfleiste: zentriertes Logo, durchsichtig über der Eröffnung, weiß beim Scrollen */
 .bar { position: fixed; z-index: 50; left: 0; right: 0; top: var(--bar-top, 0px); color: #fff; transition: background-color .5s var(--ease), color .5s var(--ease), transform .6s var(--ease), box-shadow .5s; }
@@ -400,7 +400,9 @@ address .more { margin-top: 16px; }
   .reach div { grid-template-columns: 1fr; gap: 2px; }
   .obj-gallery { grid-template-columns: 1fr; grid-template-rows: 56vh; height: auto; }
   .obj-gallery .photo:not(:first-child) { display: none; }
-  .demo { justify-content: flex-start; text-align: left; }
+  .demo { justify-content: space-between; text-align: left; gap: 4px 12px; font-size: .75rem; }
+  .demo-long { display: none; }
+  .demo-short { display: inline; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: .01ms !important; animation: none !important; }
