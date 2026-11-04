@@ -11,9 +11,9 @@
   /* Entwurfsstellen der Vorführ-Version */
   var toggle = document.getElementById("toggle-drafts");
   if (toggle) toggle.addEventListener("click", function () {
-    var on = document.body.classList.toggle("show-drafts");
-    toggle.setAttribute("aria-pressed", String(on));
-    toggle.textContent = on ? "Entwurfsstellen ausblenden" : "Entwurfsstellen zeigen";
+    var clean = document.body.classList.toggle("clean-preview");
+    toggle.setAttribute("aria-pressed", String(clean));
+    toggle.textContent = clean ? "Markierungen zeigen" : "Markierungen ausblenden";
   });
 
   /* Weiches Scrollen */
@@ -159,11 +159,6 @@
       if (img) gsap.fromTo(img, { yPercent: -5 }, { yPercent: 5, ease: "none", scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true } });
     });
 
-    /* Blöcke tauchen auf */
-    ScrollTrigger.batch("[data-reveal]", {
-      start: "top 88%", once: true,
-      onEnter: function (els) { gsap.fromTo(els, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 1.1, ease: EASE_OUT, stagger: .1 }); }
-    });
 
     /* Angebote fahren nacheinander ein */
     var offers = gsap.utils.toArray(".offer");
@@ -240,7 +235,11 @@
     if (d.message) rows.push("", "Nachricht:", d.message);
     return "mailto:" + form.dataset.mailto + "?subject=" + encodeURIComponent("Bewertungsanfrage: " + (d.objektart || "") + " in " + (d.ort_frei || d.ort || "")) + "&body=" + encodeURIComponent(rows.join("\n"));
   }
-  function success() {
+  function success(viaMail) {
+    if (viaMail) {
+      successEl.querySelector("h3").textContent = "Ihr E-Mail-Programm hat sich geöffnet.";
+      successEl.querySelector("p").innerHTML = "Die Anfrage ist dort vorbereitet. Bitte senden Sie die E-Mail ab. Falls sich nichts geöffnet hat, erreichen Sie mich unter <a href=\"tel:+497273800365\">07273 800365</a> oder <a href=\"mailto:immo@forum-roeher.de\">immo@forum-roeher.de</a>.";
+    }
     wrap.classList.add("is-sent"); form.hidden = true; successEl.hidden = false; successEl.focus();
     if (progN) progN.textContent = "04";
   }
@@ -250,7 +249,7 @@
     var d = collect();
     if (d.website) { success(); return; }
     var endpoint = form.dataset.endpoint;
-    if (!endpoint) { window.location.href = mailto(d); success(); return; }
+    if (!endpoint) { window.location.href = mailto(d); success(true); return; }
     btnSubmit.disabled = true; statusEl.textContent = "Wird gesendet …";
     fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(d) })
       .then(function (r) { if (!r.ok) throw new Error(r.status); statusEl.textContent = ""; success(); })

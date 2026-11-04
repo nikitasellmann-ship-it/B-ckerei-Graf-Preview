@@ -113,7 +113,7 @@ def page(o):
   </div>
 </header>
 <main class="obj wrap">
-  <a class="more back" href="../../#angebote">← Alle Angebote</a>
+  <a class="more back" href="../../#angebote"><svg width="18" height="12" viewBox="0 0 18 12" aria-hidden="true"><path d="M17 6H1M6 1L1 6l5 5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>Alle Angebote</a>
   <h1>{html.escape(title)}</h1>
   <p class="obj-where">{typ} · {html.escape(o["geo"]["plz"])} {html.escape(ort)} · Die genaue Adresse erhalten Sie vor der Besichtigung.</p>
   <div class="obj-gallery" aria-label="Bilder">{gallery}</div>

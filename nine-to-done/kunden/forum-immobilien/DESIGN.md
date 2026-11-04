@@ -42,11 +42,19 @@ GSAP 3.15 mit ScrollTrigger und SplitText, Lenis für weiches Scrollen, alles lo
 
 - Überschriften: Zeilen steigen aus einer Maske (expo.out, 1,2 bis 1,4 s, versetzt um 0,08 s).
 - Haltungssatz: Wörter werden beim Scrollen von 16 % auf volle Deckkraft gezogen.
-- Blöcke: 40 px Hub, eingeblendet beim Erreichen von 88 % der Fensterhöhe.
+- Keine gleiche Einblendung für jeden Block (nach Abnahme 2026-11-04 entfernt). Bewegt werden nur Überschriften, der Haltungssatz und die Angebotsleiste.
 - Knöpfe: Füllung steigt von unten, cubic-bezier(.76,0,.24,1), 0,6 s.
 - Kopfleiste: durchsichtig über der Eröffnung, danach weiß, weicht beim Runterscrollen aus.
 - Fotos: Ausschnitt gleitet im Rahmen (Parallaxe), Zoom 1,06 beim Überfahren der Angebote.
 - Ohne JavaScript und bei `prefers-reduced-motion` ist alles sofort sichtbar.
+
+## Unbestätigte Angaben
+
+Sätze, die Herr Röher noch bestätigen muss, tragen `class="draft"` und sind standardmäßig gold gepunktet unterstrichen. Der Knopf „Markierungen ausblenden“ im Vorführ-Hinweis zeigt die saubere Ansicht. Vor dem Livegang müssen alle `draft` entweder bestätigt (Klasse entfernen) oder gestrichen sein.
+
+## Details
+
+`::selection` in hellem Gold, `caret-color` in Navy, Preise und Nummern mit `tabular-nums`. Pfeile sind gezeichnete SVG mit 1,2-px-Strich, keine Schriftzeichen.
 
 ## Fotos
 
