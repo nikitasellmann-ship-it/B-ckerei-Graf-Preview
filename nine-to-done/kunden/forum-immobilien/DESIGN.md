@@ -18,17 +18,20 @@ Die vorige Fassung („Verkaufsmappe“) liegt in `design/archiv/verkaufsmappe/`
 
 ## Farben
 
-| Token | Wert | Verwendung |
-|---|---|---|
-| `--navy` | #1e3a5f | aus dem Logo, Knöpfe, Infoleiste |
-| `--navy-deep` | #14273d | Eröffnung, Verwaltung, Fuß, Menü |
-| `--gold` | #a8834a | Kapitell im Logo, Fokusrahmen |
-| `--gold-text` | #82622f | kleine Ziffern auf Weiß (5,6:1) |
-| `--ink` | #161a20 | Text |
-| `--muted` | #565c64 | Fließtext grau (6,4:1 auf Weiß) |
-| `--line` | #dcd8d1 | Linien |
-| `--stone` | #f3f1ec | Wechsel-Hintergrund |
-| `--ph` / `--ph-ink` | #e4dfd6 / #59534a | Fotoflächen, bis echte Bilder kommen |
+Palette von Nine to Done, eingeführt am 2026-11-04. Logo und Favicon sind passend umgefärbt, die Originale in Navy bleiben in `logo/final/`, die warme Fassung liegt in `logo/final/warm/`.
+
+| Token | Wert | Verwendung | Kontrast |
+|---|---|---|---|
+| `--dark` | #1a120e | Eröffnung, Menü, Fuß, Schrift | |
+| `--deep` | #3a2418 | Fakten-Leiste, Verwaltungsband, große Überschriften in Braun | |
+| `--brown` | #6b4a2e | Knöpfe, Links, Preise, kleine Ziffern | 7,6:1 auf Papier, Weiß darauf 7,9:1 |
+| `--caramel` | #a88462 | Akzent: Logo-Kapitell, Fokus, Markierung, Linien; Schrift nur auf Dunkel | 5,4:1 auf #1a120e, auf Hell nur Deko |
+| `--sand` | #d5c4ae | Schrift auf Dunkel, Auswahl, Rahmen auf Dunkel | 10,9:1 auf #1a120e, 8,5:1 auf #3a2418 |
+| `--grey` | #4a4a46 | Fließtext | 8,5:1 auf Papier |
+| `--paper` | #fbf9f6 | Grund | |
+| `--stone` | #f2ebe2 | Wechsel-Grund (Sand aufgehellt) | |
+| `--line` | #e2d7c9 | Linien auf Hell | |
+| `--ph` | #e3d7c8 | Fotoflächen bis echte Bilder kommen | |
 
 ## Schrift
 
