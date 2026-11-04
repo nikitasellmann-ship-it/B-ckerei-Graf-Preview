@@ -5,11 +5,11 @@ Start im Ordner website/:  python werkzeuge/seiten_bauen.py
 Später ruft das Makler-Portal von Nine to Done dieses Skript (oder eine Schnittstelle mit
 derselben Logik) auf, sobald sich Objekte ändern. Feldnamen nach OpenImmo.
 """
-import hashlib
 import html
 import json
 import os
 import re
+from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "daten", "objekte.json")
@@ -28,15 +28,6 @@ def num(v):
     return f"{v:,.0f}".replace(",", ".")
 
 
-def parcel(seed, w=76, h=64):
-    """Eine ruhige Parzellenform, die je Objekt gleich bleibt."""
-    b = hashlib.sha1(seed.encode()).digest()
-    j = lambda i, r: (b[i] / 255 - 0.5) * r
-    pts = [(8 + j(0, 8), 8 + j(1, 8)), (w - 8 + j(2, 8), 6 + j(3, 8)), (w - 6 + j(4, 6), h - 8 + j(5, 8)), (6 + j(6, 6), h - 6 + j(7, 6))]
-    d = "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + " Z"
-    return f'<svg viewBox="0 0 {w} {h}" aria-hidden="true"><path class="parcel" d="{d}"/></svg>'
-
-
 def facts(o):
     f = o.get("flaechen", {})
     parts = []
@@ -51,10 +42,11 @@ def list_item(o):
     t = html.escape(o["freitexte"]["objekttitel"])
     ort = html.escape(o["geo"]["ort"])
     p = o["preise"].get("kaufpreis")
-    fx = " · ".join([ort] + facts(o))
-    price = f'<span class="price">{euro(p)}</span>' if p else ""
-    return (f'          <li class="idx"><a href="immobilien/{o["slug"]}/"><figure>{parcel(o["scout_id"])}<figcaption>Fotos folgen</figcaption></figure>'
-            f'<div><h3>{t}</h3><p class="facts">{fx}{price}</p></div></a></li>')
+    meta = " · ".join([ort] + facts(o))
+    price = f'<p class="offer-price">{euro(p)}</p>' if p else '<p class="offer-price">Preis auf Anfrage</p>'
+    return (f'      <li class="offer"><a href="immobilien/{o["slug"]}/">'
+            f'<div class="photo"><div class="photo-inner"></div><span class="photo-note">Bilder aus dem Exposé folgen</span></div>'
+            f'{price}<h3 class="offer-title">{t}</h3><p class="offer-meta">{meta}</p></a></li>')
 
 
 def page(o):
@@ -71,6 +63,7 @@ def page(o):
             ("Heizung", " · ".join(x for x in [a.get("heizungsart"), a.get("befeuerung")] if x) or None),
             ("Energieausweis", z.get("energiepass")), ("Provision für Käufer", o["preise"].get("aussen_courtage")),
             ("Ort", f'{o["geo"]["plz"]} {ort}')]
+    rows = [r for r in rows if r[0] != "Kaufpreis"]
     sheet = "".join(f"<div><dt>{k}</dt><dd>{html.escape(str(v))}</dd></div>" for k, v in rows if v)
     blocks = ""
     for key, head in [("objektbeschreibung", "Beschreibung"), ("ausstatt_beschr", "Ausstattung"), ("lage", "Lage"), ("sonstige_angaben", "Sonstiges")]:
@@ -80,8 +73,12 @@ def page(o):
         blocks = "<p>Die ausführliche Beschreibung steht im Exposé.</p>"
     facts_line = ", ".join([f"{typ} in {ort}"] + facts(o) + ([f"Kaufpreis {euro(p)}"] if p else []))
     meta_title = f"{typ} kaufen in {ort} · " + " · ".join(facts(o)) + " · Forum Immobilien"
+    phone = '<a class="btn" href="tel:+497273800365"><span>07273 800365</span></a>'
+    mail = f'<a class="btn btn-quiet" href="mailto:immo@forum-roeher.de?subject={html.escape(quote("Besichtigung: " + title))}"><span>Besichtigung anfragen</span></a>'
+    price_big = f'<p class="obj-price">{euro(p)}</p>' if p else '<p class="obj-price">Preis auf Anfrage</p>'
+    ld = {"@context": "https://schema.org", "@type": "Offer", "name": title, "price": p, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "seller": {"@type": "RealEstateAgent", "name": "Forum Immobilien", "@id": "https://www.forum-roeher.de/#business"}, "itemOffered": {"@type": "SingleFamilyResidence" if o["objektkategorie"]["objektart"] == "haus" else "Apartment", "name": title, "numberOfRooms": f.get("anzahl_zimmer"), "floorSize": {"@type": "QuantitativeValue", "value": f.get("wohnflaeche"), "unitCode": "MTK"}, "address": {"@type": "PostalAddress", "postalCode": o["geo"]["plz"], "addressLocality": ort, "addressCountry": "DE"}}}
     return f"""<!doctype html>
-<html lang="de">
+<html lang="de" class="js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -89,24 +86,43 @@ def page(o):
 <meta name="description" content="{html.escape(facts_line)}. Exposé, Bilder und Besichtigung bei Forum Immobilien.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/fonts/libre-caslon-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../assets/css/site.css">
-<script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@type": "Offer", "name": title, "price": p, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "seller": {"@type": "RealEstateAgent", "name": "Forum Immobilien", "@id": "https://www.forum-roeher.de/#business"}, "itemOffered": {"@type": "SingleFamilyResidence" if o["objektkategorie"]["objektart"] == "haus" else "Apartment", "name": title, "numberOfRooms": f.get("anzahl_zimmer"), "floorSize": {"@type": "QuantitativeValue", "value": f.get("wohnflaeche"), "unitCode": "MTK"}, "address": {"@type": "PostalAddress", "postalCode": o["geo"]["plz"], "addressLocality": ort, "addressCountry": "DE"}}}, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
-<body>
-<div class="demo" role="note"><div class="in"><p>Vorführ-Version von Nine to Done. Beispieldaten aus dem ImmoScout24-Konto, Stand {html.escape(DATA_STAND)}.</p></div></div>
-<div class="page">
-<div class="top"><a href="../../"><img src="../../assets/img/forum-logo-kurz-weiss.svg" alt="Forum Immobilien" width="180" height="22"></a><a class="ph" href="tel:+497273800365">07273 800365</a></div>
-<main class="sheet">
-<a class="back-link" href="../../#angebote">← Alle Angebote</a>
-<h1>{html.escape(title)}</h1>
-<p class="where">{html.escape(o["geo"]["plz"])} {html.escape(ort)} · Die genaue Adresse erhalten Sie vor der Besichtigung.</p>
-<p class="photos-missing">Bilder und Grundrisse kommen hier automatisch aus den Objektdaten. In der Vorführ-Version fehlen sie.</p>
-<dl class="datasheet">{sheet}</dl>
-{blocks}
-<p style="margin-top:36px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="mailto:immo@forum-roeher.de?subject={html.escape('Besichtigung: ' + title)}">Besichtigung anfragen</a><a class="btn line" href="tel:+497273800365">07273 800365</a></p>
+<body class="page-obj">
+<div class="demo" role="note"><p>Vorführ-Version von Nine to Done. Beispieldaten aus dem ImmoScout24-Konto, Stand {html.escape(DATA_STAND)}.</p></div>
+<header class="bar is-solid">
+  <div class="bar-in">
+    <a class="brand" href="../../" aria-label="Forum Immobilien, zur Startseite"><img src="../../assets/img/forum-logo.svg" alt="" width="216" height="28"></a>
+    <nav class="nav" aria-label="Hauptmenü"><a href="../../#bewertung">Bewertung</a><a href="../../#angebote">Angebote</a><a href="../../#ablauf">Verkauf</a><a href="../../#verwaltung">Verwaltung</a><a href="../../#inhaber">Über mich</a><a href="../../#kontakt">Kontakt</a></nav>
+    <div class="bar-end"><a class="bar-tel" href="tel:+497273800365">07273 800365</a></div>
+  </div>
+</header>
+<main class="obj wrap">
+  <a class="more back" href="../../#angebote">← Alle Angebote</a>
+  <h1>{html.escape(title)}</h1>
+  <p class="obj-where">{typ} · {html.escape(o["geo"]["plz"])} {html.escape(ort)} · Die genaue Adresse erhalten Sie vor der Besichtigung.</p>
+  <div class="obj-gallery" aria-label="Bilder">
+    <div class="photo"><span class="photo-note">Bilder und Grundrisse kommen aus den Objektdaten</span></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+  </div>
+  <div class="obj-grid">
+    <div class="obj-text">{blocks}</div>
+    <aside class="obj-side" aria-label="Eckdaten">
+      {price_big}
+      <dl class="datasheet">{sheet}</dl>
+      <p class="actions">{mail}{phone}</p>
+    </aside>
+  </div>
 </main>
-<footer class="end"><img src="../../assets/img/forum-logo-weiss.svg" alt="Forum Immobilien" width="300" height="44"><p>Forum Immobilien · Lindelbrunnstraße 4 · 76767 Hagenbach</p><nav><a href="../../impressum.html">Impressum</a><a href="../../datenschutz.html">Datenschutz</a></nav></footer>
-</div>
+<footer class="foot">
+  <div class="wrap">
+    <img src="../../assets/img/forum-logo-weiss.svg" alt="Forum Immobilien" width="300" height="39">
+    <div class="foot-row"><p>Forum Immobilien · Lindelbrunnstraße 4 · 76767 Hagenbach</p><nav aria-label="Rechtliches"><a href="../../impressum.html">Impressum</a><a href="../../datenschutz.html">Datenschutz</a></nav></div>
+  </div>
+</footer>
 </body>
 </html>
 """
@@ -119,8 +135,9 @@ objs = data["immobilien"]
 items = "\n".join(list_item(o) for o in objs)
 src = open(INDEX, encoding="utf-8").read()
 src = re.sub(r"(<!-- OBJEKTE:START -->\n).*?(<!-- OBJEKTE:ENDE -->)", lambda m: m.group(1) + items + "\n" + m.group(2), src, flags=re.S)
-n_hb = sum(1 for o in objs if o["geo"]["ort"] == "Hagenbach")
-src = re.sub(r'(data-count-hagenbach>)[^<]*', lambda m: m.group(1) + (f"{n_hb} Angebote" if n_hb != 1 else "1 Angebot"), src)
+n = len(objs)
+SING = {"Angebote": "Angebot", "Immobilien": "Immobilie"}
+src = re.sub(r'(data-count-alle="(\w+)">)[^<]*', lambda m: m.group(1) + (f"{n} {m.group(2)}" if n != 1 else f"1 {SING.get(m.group(2), m.group(2))}"), src)
 open(INDEX, "w", encoding="utf-8").write(src)
 
 for o in objs:

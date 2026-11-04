@@ -51,6 +51,9 @@ Vorführ-Version auf Basis des alten Logos (Screenshot ImmoScout24). Original vo
 
 Jede Entscheidung der Person mit Datum, damit sie nicht erneut diskutiert wird.
 
+- 2026-11-04: Nine to Done: die Verkaufsmappe wirkt noch mehr nach KI. Eins-zu-eins-Vergleich mit Christie's, Engel & Völkers, Dahler und Sotheby's UK (Sotheby's nutzt Freight Big und Benton Sans). Danach Vorgabe von Nine to Done: „Sotheby's weglassen, es soll einfach nach einer echten Seite aussehen“. Komplett neu gebaut. Siehe `DESIGN.md`, die alte Fassung liegt in `design/archiv/verkaufsmappe/`.
+- 2026-11-04: Bewegung nach dem Muster von Sondaven, umgesetzt mit GSAP, ScrollTrigger, SplitText und Lenis (lokal eingebunden). Schriften jetzt Libre Caslon Display und Libre Franklin.
+- 2026-11-04: Fotos sind der größte noch fehlende Baustein. Bildquellen im Netz sind in der Cloud-Sitzung gesperrt, deshalb stehen ruhige Platzhalterflächen dort, wo später das Porträt und die Objektbilder hinkommen.
 - 2026-11-03: Website wird mit dem Skill `website-bauen` (Julian Ivanov) gebaut.
 - 2026-11-03: Die Website muss mit einem späteren Makler-Portal (Exposé-Upload, automatische Bildbearbeitung, Export zu ImmoScout24 und anderen Portalen) zusammenarbeiten. Objekte kommen deshalb aus Daten nach OpenImmo-Standard, nicht aus festem HTML. Details: `briefing/zukunft-crm-und-portale.md`.
 - 2026-11-03: Ort ist 76767 Hagenbach in der Pfalz.
