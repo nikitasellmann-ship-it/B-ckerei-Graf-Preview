@@ -38,6 +38,13 @@ def facts(o):
     return parts
 
 
+def img_tag(b, prefix, lazy=True):
+    """Ein Bild aus o["bilder"]: {"datei": "assets/img/fotos/...", "titel": "...", "muster": true}."""
+    badge = '<span class="badge">Musterbild</span>' if b.get("muster") else ""
+    load = ' loading="lazy" decoding="async"' if lazy else ""
+    return f'<img src="{prefix}{html.escape(b["datei"])}" alt="{html.escape(b.get("titel", ""))}"{load}>{badge}'
+
+
 def list_item(o):
     t = html.escape(o["freitexte"]["objekttitel"])
     ort = html.escape(o["geo"]["ort"])
@@ -45,8 +52,9 @@ def list_item(o):
     meta = " · ".join([ort] + facts(o))
     price = f'<p class="offer-price">{euro(p)}</p>' if p else '<p class="offer-price">Preis auf Anfrage</p>'
     return (f'      <li class="offer"><a href="immobilien/{o["slug"]}/">'
-            f'<div class="photo"><div class="photo-inner"></div><span class="photo-note">Bilder aus dem Exposé folgen</span></div>'
-            f'{price}<h3 class="offer-title">{t}</h3><p class="offer-meta">{meta}</p></a></li>')
+            + (f'<div class="photo"><div class="photo-inner">{img_tag(o["bilder"][0], "")}</div></div>' if o.get("bilder") else
+               '<div class="photo"><div class="photo-inner"></div><span class="photo-note">Bilder aus dem Exposé folgen</span></div>')
+            + f'{price}<h3 class="offer-title">{t}</h3><p class="offer-meta">{meta}</p></a></li>')
 
 
 def page(o):
@@ -75,6 +83,11 @@ def page(o):
     meta_title = f"{typ} kaufen in {ort} · " + " · ".join(facts(o)) + " · Forum Immobilien"
     phone = '<a class="btn" href="tel:+497273800365"><span>07273 800365</span></a>'
     mail = f'<a class="btn btn-quiet" href="mailto:immo@forum-roeher.de?subject={html.escape(quote("Besichtigung: " + title))}"><span>Besichtigung anfragen</span></a>'
+    pics = o.get("bilder", [])[:3]
+    gallery = "".join(f'<div class="photo">{img_tag(b, "../../", i > 0)}</div>' for i, b in enumerate(pics))
+    gallery += "".join('<div class="photo"></div>' for _ in range(3 - len(pics)))
+    if not pics:
+        gallery = gallery.replace('<div class="photo"></div>', '<div class="photo"><span class="photo-note">Bilder und Grundrisse kommen aus den Objektdaten</span></div>', 1)
     price_big = f'<p class="obj-price">{euro(p)}</p>' if p else '<p class="obj-price">Preis auf Anfrage</p>'
     ld = {"@context": "https://schema.org", "@type": "Offer", "name": title, "price": p, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "seller": {"@type": "RealEstateAgent", "name": "Forum Immobilien", "@id": "https://www.forum-roeher.de/#business"}, "itemOffered": {"@type": "SingleFamilyResidence" if o["objektkategorie"]["objektart"] == "haus" else "Apartment", "name": title, "numberOfRooms": f.get("anzahl_zimmer"), "floorSize": {"@type": "QuantitativeValue", "value": f.get("wohnflaeche"), "unitCode": "MTK"}, "address": {"@type": "PostalAddress", "postalCode": o["geo"]["plz"], "addressLocality": ort, "addressCountry": "DE"}}}
     return f"""<!doctype html>
@@ -103,11 +116,7 @@ def page(o):
   <a class="more back" href="../../#angebote">← Alle Angebote</a>
   <h1>{html.escape(title)}</h1>
   <p class="obj-where">{typ} · {html.escape(o["geo"]["plz"])} {html.escape(ort)} · Die genaue Adresse erhalten Sie vor der Besichtigung.</p>
-  <div class="obj-gallery" aria-label="Bilder">
-    <div class="photo"><span class="photo-note">Bilder und Grundrisse kommen aus den Objektdaten</span></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-  </div>
+  <div class="obj-gallery" aria-label="Bilder">{gallery}</div>
   <div class="obj-grid">
     <div class="obj-text">{blocks}</div>
     <aside class="obj-side" aria-label="Eckdaten">
