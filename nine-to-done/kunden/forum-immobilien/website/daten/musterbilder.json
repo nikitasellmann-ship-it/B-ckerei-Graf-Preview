@@ -1,0 +1,16 @@
+{
+  "hinweis": "Musterbilder für die Vorführ-Version. Quelle: Unsplash (Unsplash-Lizenz, frei auch für kommerzielle Nutzung). Werden durch echte Fotos von Herrn Röher ersetzt. IDs vor dem Einsetzen ansehen und bei Bedarf tauschen.",
+  "bilder": [
+    {"schluessel": "hero", "id": "photo-1600596542815-ffad4c1539a9", "titel": "Wohnhaus am Abend", "fuer": "seite:hero", "breite": 2000},
+    {"schluessel": "beratung", "id": "photo-1560518883-ce09059eeffa", "titel": "Übergabe der Schlüssel", "fuer": "seite:beratung", "breite": 1200},
+    {"schluessel": "bungalow-1", "id": "photo-1570129477492-45c003edd2be", "titel": "Ansicht", "fuer": "objekt:bungalow-hagenbach-171139412"},
+    {"schluessel": "bungalow-2", "id": "photo-1600607687939-ce8a6c25118c", "titel": "Wohnbereich", "fuer": "objekt:bungalow-hagenbach-171139412"},
+    {"schluessel": "bungalow-3", "id": "photo-1600566753190-17f0baa2a6c3", "titel": "Küche", "fuer": "objekt:bungalow-hagenbach-171139412"},
+    {"schluessel": "eg-wohnung-1", "id": "photo-1502672260266-1c1ef2d93688", "titel": "Wohnzimmer", "fuer": "objekt:eg-wohnung-terrasse-garten-hagenbach-167279877"},
+    {"schluessel": "eg-wohnung-2", "id": "photo-1484154218962-a197022b5858", "titel": "Küche", "fuer": "objekt:eg-wohnung-terrasse-garten-hagenbach-167279877"},
+    {"schluessel": "haushaelfte-1", "id": "photo-1580587771525-78b9dba3b914", "titel": "Ansicht", "fuer": "objekt:haushaelfte-hagenbach-171868989"},
+    {"schluessel": "wohnung-studio-1", "id": "photo-1560448204-e02f11c3d0e2", "titel": "Wohnbereich", "fuer": "objekt:wohnung-wohnstudio-garten-hagenbach-167283603"},
+    {"schluessel": "einfamilienhaus-1", "id": "photo-1564013799919-ab600027ffc6", "titel": "Ansicht", "fuer": "objekt:einfamilienhaus-hagenbach-167162868"},
+    {"schluessel": "doppelhaushaelfte-1", "id": "photo-1568605114967-8130f3a36994", "titel": "Ansicht", "fuer": "objekt:doppelhaushaelfte-hinterweidenthal-167135224"}
+  ]
+}

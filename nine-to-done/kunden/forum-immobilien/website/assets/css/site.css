@@ -117,6 +117,9 @@ p:last-child { margin-bottom: 0; }
 /* Eröffnung */
 .hero { position: relative; display: flex; align-items: flex-end; background: var(--navy-deep); color: #fff; overflow: hidden; }
 .hero-media { position: absolute; inset: 0; background: var(--navy-deep) center / cover no-repeat; }
+.hero-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero-media:has(img)::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,39,61,.82) 0%, rgba(20,39,61,.55) 55%, rgba(20,39,61,.35) 100%), linear-gradient(0deg, rgba(20,39,61,.6) 0%, rgba(20,39,61,0) 40%); }
+.hero-media .badge { top: auto; bottom: 16px; left: auto; right: 16px; z-index: 3; }
 .hero-in { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 420px); gap: clamp(40px, 6vw, 112px); align-items: end; padding-top: calc(var(--bar-h) + clamp(96px, 16vh, 184px)); padding-bottom: clamp(72px, 11vh, 128px); }
 .hero-title { font-size: clamp(3rem, 6.4vw, 6.75rem); max-width: 9.6em; text-wrap: balance; }
 .hero-side { color: rgba(255,255,255,.86); font-size: 1.0625rem; }
